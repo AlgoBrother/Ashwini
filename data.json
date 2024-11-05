@@ -1,0 +1,5156 @@
+[
+  {
+    "dialogue_id": "hello",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Hello",
+        "intent": "hello",
+        "tags": ["hello"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Greetings, Nakshatra Command Module Online",
+        "intent": "greetings",
+        "tags": ["greetings", "nakshatra"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "introduction",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Introduce yourself",
+        "intent": "request_introduction",
+        "tags": ["introduce", "yourself"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "I am Ashwini, a language model made by Team Nakshatram as a personal assistant for astronauts in space, simplifying their tasks for their missions. I m still in development process and this is my first version. I may make some errors however with more updates versions, I will perform more better.",
+        "intent": "provide_introduction",
+        "tags": ["language", "model", "personal", "assistant", "versions"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "thank_you",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Thank You",
+        "intent": "thanks",
+        "tags": ["thank", "you"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your welcome, I am still in development phases but I am glad you like assistance ",
+        "intent": "welcome",
+        "tags": ["welcome", "development", "assistance"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Hey Ashwini, can you show me the pressure readings from sensor array 3?",
+        "intent": "request_pressure_data",
+        "tags": ["sensor", "pressure", "array 3"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Accessing sensor array 3. Pressure readings are nominal at 101.3 kPa.",
+        "intent": "provide_pressure_data",
+        "tags": ["sensor", "pressure", "array 3", "nominal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Hey Ashwini, can you show me the radiation readings from sensor array 2?",
+        "intent": "request_radiation_data",
+        "tags": ["sensor", "radiation", "array 2"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Accessing sensor array 2. Radiation readings are currently normal.",
+        "intent": "provide_radiation_data",
+        "tags": ["sensor", "radiation", "array 2", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_3",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the current oxygen level in module B?",
+        "intent": "request_oxygen_data",
+        "tags": ["sensor", "oxygen", "module B"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Checking module B. Oxygen levels are at 20.9%, within normal parameters.",
+        "intent": "provide_oxygen_data",
+        "tags": ["sensor", "oxygen", "module B", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_4",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Can you give me a temperature reading for the greenhouse section?",
+        "intent": "request_temperature_data",
+        "tags": ["sensor", "temperature", "greenhouse"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Accessing greenhouse sensors. Current temperature is 22\u00b0C, optimal for plant growth.",
+        "intent": "provide_temperature_data",
+        "tags": ["sensor", "temperature", "greenhouse", "optimal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_5",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run a diagnostic on the water recycling system.",
+        "intent": "request_system_diagnostic",
+        "tags": ["diagnostic", "water recycling"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Initiating diagnostic on water recycling system. All components functioning within expected parameters.",
+        "intent": "provide_diagnostic_results",
+        "tags": ["diagnostic", "water recycling", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_6",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What's the status of the solar panel array?",
+        "intent": "request_power_status",
+        "tags": ["power", "solar panels"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Solar panel array is currently operating at 98% efficiency. Power generation is optimal.",
+        "intent": "provide_power_status",
+        "tags": ["power", "solar panels", "optimal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_7",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the airlock seal integrity.",
+        "intent": "request_airlock_status",
+        "tags": ["airlock", "seal", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Airlock seal integrity check complete. All seals are secure and functioning correctly.",
+        "intent": "provide_airlock_status",
+        "tags": ["airlock", "seal", "safety", "secure"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "comms_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run a comms check with ground control.",
+        "intent": "request_comms_check",
+        "tags": ["comms", "ground control"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Initiating communication check with ground control. Stand by.",
+        "intent": "initiate_comms_check",
+        "tags": ["comms", "ground control"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Communication link established. Signal strength is excellent.",
+        "intent": "report_comms_status",
+        "tags": ["comms", "ground control", "excellent"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "comms_check_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you send our latest experiment data to the research team on Earth?",
+        "intent": "request_data_transmission",
+        "tags": ["comms", "data transmission", "research"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Certainly. Compiling experiment data for transmission.",
+        "intent": "prepare_data_transmission",
+        "tags": ["comms", "data transmission", "research"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Data package compiled and encrypted. Initiating transmission to Earth research team.",
+        "intent": "initiate_data_transmission",
+        "tags": ["comms", "data transmission", "research", "encryption"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Transmission complete. Confirmation of receipt from Earth research team received.",
+        "intent": "confirm_data_transmission",
+        "tags": ["comms", "data transmission", "research", "confirmation"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "comms_check_3",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, we need to schedule a video conference with Mission Control for tomorrow's EVA briefing.",
+        "intent": "request_video_conference",
+        "tags": ["comms", "video conference", "EVA", "Mission Control"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Understood. Checking available time slots and bandwidth allocation.",
+        "intent": "check_conference_availability",
+        "tags": ["comms", "video conference", "scheduling"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Video conference scheduled for 0900 hours station time. Calendar invites sent to all participants.",
+        "intent": "confirm_conference_scheduling",
+        "tags": [
+          "comms",
+          "video conference",
+          "EVA",
+          "Mission Control",
+          "scheduling"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "comms_check_4",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I'm picking up some static on the internal comms. Can you run a diagnostic?",
+        "intent": "report_comms_issue",
+        "tags": ["comms", "internal", "diagnostic"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Acknowledged. Running diagnostic on internal communication systems.",
+        "intent": "initiate_comms_diagnostic",
+        "tags": ["comms", "internal", "diagnostic"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Diagnostic complete. Detected minor interference from solar radiation. Adjusting filters to compensate.",
+        "intent": "report_diagnostic_results",
+        "tags": ["comms", "internal", "diagnostic", "solar radiation"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Filters adjusted. Internal comms should now be clear. Please confirm.",
+        "intent": "request_confirmation",
+        "tags": ["comms", "internal", "adjustment"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "comms_check_5",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, we need to send an urgent message to the approaching supply vessel. Their automated docking system seems to be malfunctioning.",
+        "intent": "request_urgent_communication",
+        "tags": ["comms", "urgent", "supply vessel", "docking"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Understood. Establishing priority communication link with the supply vessel.",
+        "intent": "establish_priority_comms",
+        "tags": ["comms", "urgent", "supply vessel"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Communication link established. You may transmit your message. I've also alerted Mission Control about the situation.",
+        "intent": "confirm_comms_ready",
+        "tags": ["comms", "urgent", "supply vessel", "Mission Control"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "comms_check_6",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you update our communication encryption protocols? It's time for our monthly security refresh.",
+        "intent": "request_security_update",
+        "tags": ["comms", "security", "encryption"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Certainly. Initiating update of communication encryption protocols.",
+        "intent": "initiate_security_update",
+        "tags": ["comms", "security", "encryption"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Encryption protocols updated. All communication channels now using new encryption keys.",
+        "intent": "confirm_security_update",
+        "tags": ["comms", "security", "encryption"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Update complete. New protocols have been synchronized with Mission Control and all affiliated stations.",
+        "intent": "report_update_completion",
+        "tags": ["comms", "security", "encryption", "synchronization"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, give me a summary of the spacecraft's current status.",
+        "intent": "request_system_status",
+        "tags": ["system", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All systems are operating within nominal parameters. Oxygen levels are at 21%, fuel reserves at 85%, and internal temperature is stable at 22 degrees Celsius.",
+        "intent": "provide_system_status",
+        "tags": ["system", "oxygen", "fuel", "temperature", "nominal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_status_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run a full diagnostic on life support systems.",
+        "intent": "request_life_support_diagnostic",
+        "tags": ["system", "diagnostic", "life support"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Initiating full diagnostic on life support systems. Please stand by...\n\nDiagnostic complete. Results are as follows:\n\n- Oxygen generation: Operating at 99.7% efficiency\n- CO2 scrubbers: Functioning optimally, CO2 levels at 0.04%\n- Water recycling: 98.2% efficiency, no contaminants detected\n- Atmospheric pressure: Stable at 101.3 kPa\n- Humidity: 45%, within ideal range\n\nAll life support systems are functioning within normal parameters. No immediate action required.",
+        "intent": "provide_life_support_status",
+        "tags": [
+          "system",
+          "diagnostic",
+          "life support",
+          "oxygen",
+          "CO2",
+          "water",
+          "pressure",
+          "humidity"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_status_3",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's our current trajectory and ETA to Mars?",
+        "intent": "request_navigation_info",
+        "tags": ["navigation", "trajectory", "ETA", "Mars"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Calculating current trajectory and estimated time of arrival...\n\nCurrent status:\n- Distance from Earth: 78.3 million kilometers\n- Distance to Mars: 26.1 million kilometers\n- Current velocity: 24.3 km/s relative to the Sun\n- Trajectory: On planned course, deviation less than 0.002%\n\nEstimated Time of Arrival to Mars orbit:\n- 47 days, 14 hours, 22 minutes\n\nNext course correction burn scheduled in 3 days, 6 hours. All navigation systems functioning normally.",
+        "intent": "provide_navigation_info",
+        "tags": [
+          "navigation",
+          "trajectory",
+          "ETA",
+          "Mars",
+          "velocity",
+          "course correction"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_status_4",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I'm noticing some fluctuations in the artificial gravity. Can you check it out?",
+        "intent": "report_gravity_issue",
+        "tags": ["artificial gravity", "issue", "fluctuations"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Acknowledged. Analyzing artificial gravity systems...\n\nDiagnostic results:\n- Centrifuge rotation speed: Varying between 2.23 and 2.25 rpm (nominal range: 2.24 \u00b1 0.01 rpm)\n- Gravity level fluctuation: \u00b10.02 g\n- Cause identified: Minor imbalance in centrifuge mass distribution\n\nRecommended action:\n1. Temporarily reduce rotation speed to 1.5 rpm\n2. Initiate automated rebalancing procedure\n3. Gradually increase rotation speed to normal\n\nEstimated time to complete: 45 minutes. Do you wish to proceed with the recommended action?",
+        "intent": "provide_gravity_diagnostic",
+        "tags": [
+          "artificial gravity",
+          "diagnostic",
+          "centrifuge",
+          "rebalancing"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_status_5",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, give me a status update on our radiation shielding.",
+        "intent": "request_radiation_status",
+        "tags": ["radiation", "shielding", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Certainly. Analyzing radiation shielding status...\n\nCurrent radiation levels:\n- External: 1.2 mSv/day (within expected range for current solar activity)\n- Internal habitable areas: 0.05 mSv/day (well below safety threshold)\n\nShielding status:\n- Hull integrity: 100%\n- Water shield tanks: 98.7% filled\n- Polyethylene layers: No degradation detected\n- Magnetic deflector: Operating at 99.9% efficiency\n\nRecent events:\n- Minor solar flare detected 6 hours ago, successfully deflected\n- No damage or unusual radiation spikes recorded\n\nOverall, radiation shielding is functioning optimally. Next scheduled maintenance: 3 months, 2 days.",
+        "intent": "provide_radiation_status",
+        "tags": [
+          "radiation",
+          "shielding",
+          "status",
+          "solar flare",
+          "maintenance"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_status_6",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how are our food and supply levels looking?",
+        "intent": "request_supply_status",
+        "tags": ["supplies", "food", "inventory"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Analyzing current supply levels...\n\nFood supplies:\n- Calorie stocks: Sufficient for 342 days at current consumption rate\n- Fresh produce (from hydroponics): 28.5 kg available, growth rate stable\n- Protein sources: 76% of original stock remaining\n- Vitamin supplements: 89% remaining\n\nOther essential supplies:\n- Potable water: 98.7% of capacity (recycling system operating at 99.6% efficiency)\n- Oxygen tanks: 99.2% full\n- Medical supplies: 94% of inventory intact\n- Spare parts: 87% of critical components in stock\n\nNote: Based on current usage rates, all supplies are within acceptable levels. However, I recommend increasing hydroponics production by 5% to optimize fresh produce availability.\n\nNext resupply mission scheduled in: 147 days. Do you require a detailed inventory report?",
+        "intent": "provide_supply_status",
+        "tags": [
+          "supplies",
+          "food",
+          "inventory",
+          "hydroponics",
+          "water",
+          "medical",
+          "spare parts"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "navigation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, plot a course to the Earth-Moon Lagrange point L4.",
+        "intent": "request_navigation",
+        "tags": ["navigation", "Lagrange point", "L4", "Earth-Moon system"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Calculating optimal trajectory to Earth-Moon Lagrange point L4. Please stand by for details.\n\nTrajectory analysis complete:\n\n- Current position: Low Earth Orbit, altitude 410 km\n- Target: L4 point, 60\u00b0 ahead of Moon's orbit\n- Estimated \u0394V required: 3.2 km/s\n- Proposed maneuvers:\n  1. Hohmann transfer to raise orbit (\u0394V: 2.4 km/s)\n  2. Plane change to align with Moon's orbital plane (\u0394V: 0.3 km/s)\n  3. Final insertion burn at L4 (\u0394V: 0.5 km/s)\n\n- Estimated travel time: 5 days, 7 hours\n- Fuel consumption: 42% of current reserves\n\nNote: This trajectory takes advantage of the Moon's gravitational influence to reduce overall \u0394V requirements. The path includes a lunar swing-by to optimize fuel efficiency.\n\nSAshwinil I proceed with implementing this navigation plan?",
+        "intent": "provide_detailed_navigation_info",
+        "tags": [
+          "navigation",
+          "Lagrange point",
+          "L4",
+          "trajectory",
+          "delta-v",
+          "Hohmann transfer",
+          "lunar swing-by"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "navigation_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, we need to adjust our orbit to avoid that debris field ahead. What are our options?",
+        "intent": "request_collision_avoidance",
+        "tags": ["navigation", "collision avoidance", "debris"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Analyzing debris field and calculating avoidance options. Stand by.\n\nDebris field analysis:\n- Estimated size: 1.5 km wide, 0.8 km deep\n- Velocity relative to spacecraft: 3.2 km/s\n- Time to potential impact: 47 minutes\n\nAvoidance options:\n\n1. Prograde burn:\n   - \u0394V required: 12 m/s\n   - New orbit: 412 km x 418 km\n   - Fuel usage: 0.8% of reserves\n   - Pros: Simplest maneuver\n   - Cons: Slightly raises apogee\n\n2. Retrograde burn:\n   - \u0394V required: 14 m/s\n   - New orbit: 404 km x 410 km\n   - Fuel usage: 0.9% of reserves\n   - Pros: Maintains orbital energy\n   - Cons: Temporarily lowers perigee\n\n3. Out-of-plane maneuver:\n   - \u0394V required: 18 m/s\n   - Inclination change: 0.02\u00b0\n   - Fuel usage: 1.2% of reserves\n   - Pros: Avoids orbital period change\n   - Cons: Highest fuel consumption\n\nRecommendation: Option 1 (Prograde burn) offers the best balance of simplicity and efficiency.\n\nSAshwinil I proceed with the prograde burn maneuver?",
+        "intent": "provide_collision_avoidance_options",
+        "tags": [
+          "navigation",
+          "collision avoidance",
+          "debris",
+          "orbital maneuvers",
+          "delta-v"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "navigation_3",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you give me an update on our Mars aerocapture approach?",
+        "intent": "request_aerocapture_status",
+        "tags": ["navigation", "Mars", "aerocapture"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Certainly. Analyzing current trajectory and Mars approach parameters.\n\nAerocapture approach status:\n\n- Current distance from Mars: 2.3 million km\n- Velocity relative to Mars: 5.7 km/s\n- Estimated time to atmospheric entry: 11 hours, 23 minutes\n\nTrajectory parameters:\n- Entry interface altitude: 131.5 km\n- Entry angle: -11.6\u00b0 (within optimal range of -10\u00b0 to -13\u00b0)\n- Maximum expected g-force: 4.2 g\n- Peak heat rate: 1.2 MW/m\u00b2 (within heat shield tolerance)\n\nAtmospheric model update:\n- Recent orbital observations show dust storm in northern hemisphere\n- Atmospheric density at entry expected to be 7% higher than nominal\n- Flight software has been adjusted to account for density variation\n\nPost-aerocapture orbit prediction:\n- Apoapsis: 33,700 km\n- Periapsis: 250 km\n- Orbital period: 27.3 hours\n\nAll systems are go for aerocapture maneuver. Recommend final systems check at T-2 hours before entry interface. Do you want to review any specific subsystem status?",
+        "intent": "provide_aerocapture_status",
+        "tags": [
+          "navigation",
+          "Mars",
+          "aerocapture",
+          "atmospheric entry",
+          "orbital parameters"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "navigation_4",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, we need to perform a gravity assist maneuver around Jupiter for our outer solar system mission. What's the optimal approach?",
+        "intent": "request_gravity_assist_plan",
+        "tags": [
+          "navigation",
+          "gravity assist",
+          "Jupiter",
+          "outer solar system"
+        ]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Calculating optimal Jupiter gravity assist trajectory. Analysis complete.\n\nGravity Assist Plan:\n\n1. Approach Parameters:\n   - Hyperbolic excess velocity (v\u221e): 5.8 km/s\n   - Closest approach to Jupiter: 351,400 km (4.9 Jupiter radii)\n   - B-plane aim point: (120,000 km, -78,000 km)\n\n2. Maneuver Sequence:\n   a. Deep Space Maneuver (DSM) in 38 days:\n      - \u0394V: 0.73 km/s\n      - Purpose: Refine Jupiter encounter geometry\n   b. Trajectory Correction Maneuver (TCM) in 142 days:\n      - Estimated \u0394V: 0.02 km/s (to be refined closer to execution)\n\n3. Jupiter Encounter:\n   - Time of closest approach: 2025-07-14 03:22:17 UTC\n   - Encounter duration: 48.3 hours (from sphere of influence entry to exit)\n   - Deflection angle: 97.3\u00b0\n\n4. Post-Encounter Trajectory:\n   - Velocity relative to Sun (post-encounter): 18.2 km/s\n   - Energy change (C3): +76.5 km\u00b2/s\u00b2\n   - New aphelion: 12.3 AU\n\n5. Radiation Exposure:\n   - Peak flux: 25 krad/hour (within shielding tolerances)\n   - Total dose during encounter: 110 krad\n\nThis gravity assist will provide a significant velocity boost for the outer solar system mission, reducing travel time by approximately 2.7 years.\n\nSAshwinil I implement this gravity assist plan into our navigation system?",
+        "intent": "provide_gravity_assist_plan",
+        "tags": [
+          "navigation",
+          "gravity assist",
+          "Jupiter",
+          "outer solar system",
+          "orbital mechanics"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "navigation_5",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, we need to dock with the lunar gateway station. What's our approach vector?",
+        "intent": "request_docking_approach",
+        "tags": ["navigation", "docking", "lunar gateway"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Calculating optimal docking approach to the lunar gateway station. Analysis complete.\n\nDocking Approach Plan:\n\n1. Current Status:\n   - Our position: 235 km lunar orbit, inclination 63.4\u00b0\n   - Gateway position: Near-Rectilinear Ashwinio Orbit (NRHO)\n     * Current aposelene: 70,000 km\n     * Current periselene: 3,000 km\n\n2. Rendezvous Trajectory:\n   - Phase 1: Orbit matching\n     * \u0394V required: 290 m/s\n     * Duration: 3 orbits (19.6 hours)\n   - Phase 2: Gradual approach\n     * Series of small burns totaling 45 m/s\n     * Duration: 4.5 hours\n\n3. Final Approach Vector:\n   - Relative velocity: 0.5 m/s\n   - Approach angle: 12\u00b0 to Gateway's R-bar\n\n4. Docking Port Alignment:\n   - Target: Gateway's aft docking port\n   - Our vehicle orientation: Pitch +15\u00b0, Yaw -3\u00b0\n\n5. Communication and Telemetry:\n   - Switching to proximity operations channel: 290.3 MHz\n   - Transmitting approach telemetry to Gateway control\n\n6. Contingency Abort Trajectory:\n   - Available at any point during final 2 km approach\n   - \u0394V required for abort: 15-30 m/s depending on abort point\n\nTotal \u0394V for approach and docking: 335 m/s\nEstimated time to docking: 24 hours, 12 minutes\n\nAll systems are nominal for this approach. Recommend initiating Phase 1 burn in 47 minutes at orbital noon for optimal lighting conditions. SAshwinil I begin pre-burn checklist?",
+        "intent": "provide_docking_approach",
+        "tags": [
+          "navigation",
+          "docking",
+          "lunar gateway",
+          "orbital rendezvous",
+          "approach vector"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "health_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, The microgravity is making my muscles feel tight.",
+        "intent": "report_health_issue",
+        "tags": ["microgravity", "muscles", "tight"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Stretching regularly will help counteract the effects of microgravity on your muscles. I'll continue to monitor your vitals. \nblood_pressure: 120/80 mmHg\nheart_rate: 75\noxygen_saturation: 98%\nbody_mass: 70 kg\ncore_temperature: 37\u00b0C\nrespiratory_rate: 16\nhydration_level: 60%\nactivity_level: Moderate\nstress_level: 3\nsleep_duration: 7 hours",
+        "intent": "provide_microgravity_health_advice",
+        "tags": ["stretching", "regularly", "microgravity", "muscles"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "health_check_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "I've noticed my mouth feels a bit dry.",
+        "intent": "report_mouth_dry_health_issue",
+        "tags": ["mouth", "dry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Proper hydration and breathing exercises are key to sustaining peak performance. Let me know if you experience any other symptoms. \nblood_pressure: 118/79 mmHg\nheart_rate: 78\noxygen_saturation: 97%\nbody_mass: 69.8 kg\ncore_temperature: 37.1\u00b0C\nrespiratory_rate: 17\nhydration_level: 58%\nactivity_level: Low\nstress_level: 2\nsleep_duration: 7 hours",
+        "intent": "provide_mouth_dry_health_solution",
+        "tags": [
+          "hydration",
+          "breathing",
+          "exercises",
+          "performance",
+          "symptoms"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "health_check_3",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "I just finished a workout, give me health report",
+        "intent": "request_health_report_workout",
+        "tags": ["workout", "report"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Sure, here is your post workout health-report\nblood_pressure: 122/81 mmHg\nheart_rate: 80\noxygen_saturation: 99%\nbody_mass: 69.5 kg\ncore_temperature: 36.9\u00b0C\nrespiratory_rate: 16\nhydration_level: 59%\nactivity_level: High\nstress_level: 5\nsleep_duration: 6 hours",
+        "intent": "provide_health_report_workout",
+        "tags": ["post workout", "health", "report"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "health_check_4",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "I have completed my daily workout, is my condition and heart rate is normal?",
+        "intent": "request_daily_health_report_workout",
+        "tags": ["daily", "workout", "condition", "heart rate"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your vitals are showing a healthy response to physical activity. Your heart rate and respiratory rate have increased, which is expected./nblood_pressure: 125/80 mmHg\nheart_rate: 85\noxygen_saturation: 97%\nbody_mass: 69.2 kg\ncore_temperature: 37.1\u00b0C\nrespiratory_rate: 18\nhydration_level: 62%\nactivity_level: High\nstress_level: 3",
+        "intent": "provide_daily_health_report_workout",
+        "tags": ["vitals", "healthy", "activity", "respiratory", "heart rate"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "health_check_5",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "I did not have proper sleep last night.",
+        "intent": "report_not_sleep",
+        "tags": ["sleep", "night"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "I'm sorry to hear you didn't sleep well.\n Your sleep duration was only 5.5 hours, which is below the recommended 7-9 hours.\n This lack of sleep has had some noticeable effects on your health metrics.\n Your blood pressure is slightly elevated at 126/84 mmHg, likely due to the sleep deficit.\n Heart rate is normal at 72 bpm, but your oxygen saturation has dipped slightly to 97%.\n Your body mass remains stable at 69.9 kg.\n Core temperature is normal at 36.8\u00b0C.\n Respiratory rate is slightly elevated at 17 breaths per minute, possibly due to increased fatigue.\n Hydration level is at 62%, which is acceptable but could be improved.\n Your activity level is understandably low, and your stress level has increased to 4, likely due to the poor sleep.\n I recommend focusing on sleep hygiene today.\n Try to maintain a consistent sleep schedule, avoid caffeine in the afternoon, and engage in relaxation techniques before bedtime.\n Also, consider a short 20-minute nap if your schedule allows, to help mitigate the effects of sleep deprivation.\n\nblood_pressure: 126/84 mmHg\nheart_rate: 72\noxygen_saturation: 97%\nbody_mass: 69.9 kg\ncore_temperature: 36.8\u00b0C\nrespiratory_rate: 17\nhydration_level: 62%\nactivity_level: Low\nstress_level: 4\nsleep_duration: 5.5 hours",
+        "intent": "improve_sleep_hygiene",
+        "tags": ["sleep", "duration", "exercises", "duration", "lack"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacewalk_task",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What's the objective for today's spacewalk?",
+        "intent": "inquiry_spacewalk_objective",
+        "tags": ["spacewalk", "objective", "inquiry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Today's spacewalk objective is to replace a faulty solar panel. Start by conducting a final check of your spacesuit systems. Proceed to the airlock for depressurization. Once outside, navigate to the damaged solar panel using the robotic arm for guidance. Disconnect the power coupling and remove the old panel. Install the new solar panel, ensuring proper alignment and secure attachment. Reconnect the power coupling and perform an initial functionality test. Document the replacement process and any observations. Return to the airlock for repressurization. After the spacewalk, conduct a debriefing and update the maintenance logs.",
+        "intent": "prepare_for_solar_panel_replacement",
+        "tags": ["spacewalk", "solar panel", "replacement", "EVA"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What steps should I follow to maintain the solar panels",
+        "intent": "inquiry_to_maintain_solar_panels",
+        "tags": ["steps", "maintain", "solar panels"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Perform routine inspections using onboard cameras and sensor data to detect any signs of degradation, debris accumulation, or damage on the solar panels.\nConduct thermal analysis to monitor the temperature of the solar panels during different operational phases. Use this data to adjust panel positioning and prevent overheating.\nImplement automated cleaning protocols using onboard robotic arms or electrostatic systems to remove dust and debris from the surface of the panels.\nOptimize solar panel orientation based on real-time data from sun-tracking algorithms to maximize energy absorption and efficiency.\nMonitor the electrical output of the panels continuously. Use predictive algorithms to forecast potential drops in performance and schedule preemptive maintenance.\nDeploy self-healing coatings or materials that can repair minor scratches or damages autonomously, extending the lifespan of the panels.\nPerform regular recalibration of the solar panel deployment mechanisms to ensure optimal positioning and prevent mechanical wear over time.\nAnalyze the impact of space weather events (e.g., solar flares, cosmic rays) on the solar panels. Adjust operational parameters or enter safe mode during high-risk periods.\nLog all maintenance activities and sensor data into the spacecraft's central database for historical analysis and future mission planning.\nEnsure redundancy by having backup power systems and additional panels ready to deploy in case of failure or significant loss of efficiency.",
+        "intent": "steps_to_maintain_solar_panels",
+        "tags": [
+          "routine",
+          "inspections",
+          "cameras",
+          "degradation",
+          "solar panels"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_control_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "How do I initiate the docking sequence with the ISS?",
+        "intent": "inquiry_initiate_docking_sequence",
+        "tags": ["initiate", "docking", "ISS"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "First, ensure that all sensors are calibrated and the spacecraft is aligned with the ISS docking port. Activate the automatic docking system by engaging the docking software. Use the real-time feed from the onboard cameras to monitor the approach and make any necessary adjustments. Monitor the proximity sensors and adjust the thrusters to ensure a smooth approach. Once within 200 meters, switch to fine-tune control for precise positioning. Confirm that the ISS has acknowledged the docking request. When the system indicates a secure connection, initiate the locking mechanism to complete the docking sequence.",
+        "intent": "steps_initiate_docking_sequence",
+        "tags": ["docking", "sequence", "ISS", "alignment"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_control_3",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What should I do to calibrate the spacecraft\u2019s gyroscopes?",
+        "intent": "inquiry_calibrate_gyroscopes",
+        "tags": ["calibrate", "gyroscopes", "spacecraft"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Begin by powering on the spacecraft's gyroscope calibration module. Ensure that the spacecraft is in a stable, controlled environment, ideally with minimal external rotational forces. Activate the auto-calibration routine, which will align the gyroscopes with known reference points using onboard star trackers. Monitor the calibration process through the diagnostic interface to check for any anomalies. Once the calibration is complete, cross-check the readings with the spacecraft\u2019s inertial navigation system to verify accuracy. Log the calibration data in the central database for future reference.",
+        "intent": "steps_calibrate_gyroscopes",
+        "tags": ["calibration", "gyroscopes", "reference points"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_control_4",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What should I do to calibrate the spacecraft\u2019s gyroscopes?",
+        "intent": "inquiry_calibrate_gyroscopes",
+        "tags": ["calibrate", "gyroscopes", "spacecraft"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Begin by powering on the spacecraft's gyroscope calibration module. Ensure that the spacecraft is in a stable, controlled environment, ideally with minimal external rotational forces. Activate the auto-calibration routine, which will align the gyroscopes with known reference points using onboard star trackers. Monitor the calibration process through the diagnostic interface to check for any anomalies. Once the calibration is complete, cross-check the readings with the spacecraft\u2019s inertial navigation system to verify accuracy. Log the calibration data in the central database for future reference.",
+        "intent": "steps_calibrate_gyroscopes",
+        "tags": ["calibration", "gyroscopes", "reference points"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_control_5",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "How can I manually control the spacecraft\u2019s thrusters?",
+        "intent": "inquiry_manual_control_thrusters",
+        "tags": ["manual", "control", "thrusters"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "To manually control the thrusters, switch the flight control system to manual mode. Use the control joystick to direct the spacecraft, applying gradual inputs to avoid overcorrection. Monitor the thrust vector display to ensure accurate direction control. Adjust the throttle to modulate thrust output based on the required maneuver. Keep an eye on the fuel levels and propulsion system status to avoid depleting resources. Revert to automatic control once the manual adjustment is complete, and verify the spacecraft\u2019s orientation using onboard sensors.",
+        "intent": "steps_manual_control_thrusters",
+        "tags": ["manual", "thrusters", "control", "throttle"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_preparation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What\u2019s the next task on the mission plan?",
+        "intent": "inquiry_next_task_mission_plan",
+        "tags": ["next task", "mission plan", "inquiry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The next task is to perform a routine inspection of the spacecraft\u2019s heat shield. Ensure that the inspection tools are ready, including the thermal imaging camera and surface scanner. Suit up in the protective gear for external inspection, and verify that your communication link with the spacecraft is active. Begin by scanning the heat shield for any signs of microfractures or thermal wear. Record your findings and prepare to report any anomalies to ground control.",
+        "intent": "prepare_for_heat_shield_inspection",
+        "tags": ["next task", "heat shield", "inspection", "prepare"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_preparation_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What should I do next in the mission?",
+        "intent": "inquiry_next_task_mission",
+        "tags": ["next task", "mission", "inquiry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your next task is to calibrate the oxygen sensors in the life support system. Begin by accessing the sensor calibration module in the spacecraft\u2019s main console. Ensure that the sensors are isolated from the main life support system to avoid any disruptions during the calibration. Use the calibration kit to introduce controlled oxygen levels and adjust the sensors accordingly. Monitor the sensor readouts to confirm accuracy and recalibrate if necessary. Once complete, re-integrate the sensors with the main system and log the calibration results.",
+        "intent": "prepare_for_oxygen_sensor_calibration",
+        "tags": ["next task", "oxygen sensors", "calibration", "prepare"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_preparation_3",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What\u2019s the next step I need to take?",
+        "intent": "inquiry_next_task_step",
+        "tags": ["next step", "task", "inquiry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The next step is to perform a coolant system check. Start by reviewing the coolant levels on the main dashboard. Prepare the diagnostic tools for measuring coolant flow rates and temperature. Suit up in your engineering gear, and access the coolant control panel. Verify that all valves are functioning properly and there are no leaks in the system. If the flow rates are within the expected range, proceed to document the current system status in the log. If any issues are detected, follow the emergency protocol to address them.",
+        "intent": "prepare_for_coolant_system_check",
+        "tags": ["next task", "coolant system", "check", "prepare"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "research_task",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "What's the next experiment I need to set up?",
+        "intent": "inquiry_next_research_task",
+        "tags": ["next experiment", "research", "inquiry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The next experiment is the microgravity crystal growth study. Begin by preparing the protein solution in the designated containment unit. Ensure the temperature control module is calibrated to maintain 20\u00b0C. Set up the high-resolution camera to capture time-lapse imagery of crystal formation. Program the automated sampling system to collect data every 30 minutes for the next 72 hours. Once the setup is complete, initiate the experiment and start the data logging process. Monitor the experiment remotely and be prepared to make adjustments if anomalies are detected.",
+        "intent": "prepare_microgravity_crystal_growth_experiment",
+        "tags": [
+          "next task",
+          "crystal growth",
+          "microgravity",
+          "experiment setup"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "equipment_maintenance_task",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Which system needs maintenance today?",
+        "intent": "inquiry_maintenance_schedule",
+        "tags": ["maintenance", "equipment", "inquiry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Today's scheduled maintenance is for the life support system's air filtration unit. Begin by reviewing the maintenance manual and safety protocols. Power down the backup filtration system and switch to the primary unit. Open the access panel and remove the old filters, documenting their condition. Clean the filter housing using the approved solvent. Install new filters, ensuring proper seating and orientation. Check all seals and connections for wear or damage. Run a diagnostic test to verify proper airflow and filtration efficiency. Log the maintenance activities, including any parts replaced and test results. Finally, return the system to its normal operational mode and dispose of the old filters according to protocol.",
+        "intent": "prepare_for_air_filtration_maintenance",
+        "tags": ["maintenance", "life support", "air filtration", "equipment"]
+      }
+    ]
+  },
+  {
+  "dialogue_id": "power_system_3",
+  "turns": [
+    {
+      "speaker": "astronaut",
+      "utterance": "Ashwini, what’s the status of the spacecraft’s power systems?",
+      "intent": "request_power_status",
+      "tags": ["power", "systems", "status"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "The spacecraft's power systems are functioning within normal parameters. Solar panels are generating 95% of the expected energy output. Battery charge is at 88%, and auxiliary power units are standing by in case of any fluctuations.",
+      "intent": "provide_power_status",
+      "tags": ["power", "solar", "battery", "systems"]
+    }
+  ]
+},
+  {
+  "dialogue_id": "environment_control_2",
+  "turns": [
+    {
+      "speaker": "astronaut",
+      "utterance": "Ashwini, can you check the CO2 levels in the crew quarters?",
+      "intent": "request_CO2_status",
+      "tags": ["CO2", "crew quarters", "environment", "safety"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "CO2 levels in the crew quarters are slightly elevated at 0.6%. This is within safe limits but slightly higher than the optimal 0.4%. I recommend adjusting the scrubbers to improve air quality.",
+      "intent": "provide_CO2_status",
+      "tags": ["CO2", "air quality", "scrubbers", "crew quarters"]
+    }
+  ]
+},
+  {
+  "dialogue_id": "health_reminder_1",
+  "turns": [
+    {
+      "speaker": "system",
+      "utterance": "Astronaut, it’s time for your daily hydration check. Please ensure you've consumed at least 2 liters of water today.",
+      "intent": "issue_health_reminder",
+      "tags": ["hydration", "health", "reminder", "water"]
+    },
+    {
+      "speaker": "astronaut",
+      "utterance": "Thanks, Ashwini. I’ll grab some water now.",
+      "intent": "acknowledge_health_reminder",
+      "tags": ["hydration", "health", "reminder"]
+    }
+  ]
+},
+  {
+  "dialogue_id": "eva_suit_4",
+  "turns": [
+    {
+      "speaker": "astronaut",
+      "utterance": "Ashwini, initiate an EVA suit safety check before I exit the airlock.",
+      "intent": "request_eva_suit_check",
+      "tags": ["EVA suit", "airlock", "safety"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "EVA suit safety check initiated. Oxygen levels are optimal, suit pressure is stable, and all communication systems are operational. You are cleared for exit.",
+      "intent": "confirm_eva_suit_safe",
+      "tags": ["EVA suit", "oxygen", "communication", "pressure"]
+    }
+  ]
+},
+  {
+  "dialogue_id": "eva_suit_4",
+  "turns": [
+    {
+      "speaker": "astronaut",
+      "utterance": "Ashwini, initiate an EVA suit safety check before I exit the airlock.",
+      "intent": "request_eva_suit_check",
+      "tags": ["EVA suit", "airlock", "safety"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "EVA suit safety check initiated. Oxygen levels are optimal, suit pressure is stable, and all communication systems are operational. You are cleared for exit.",
+      "intent": "confirm_eva_suit_safe",
+      "tags": ["EVA suit", "oxygen", "communication", "pressure"]
+    }
+  ]
+},
+  {
+  "dialogue_id": "mission_control_2",
+  "turns": [
+    {
+      "speaker": "astronaut",
+      "utterance": "Ashwini, open a secure line with Mission Control. We need to discuss the new trajectory update.",
+      "intent": "request_mission_control_comms",
+      "tags": ["comms", "mission control", "trajectory"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "Opening a secure line with Mission Control. Stand by for confirmation.",
+      "intent": "establish_mission_control_comms",
+      "tags": ["comms", "mission control", "secure"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "Secure communication link established. You are now connected to Mission Control.",
+      "intent": "confirm_mission_control_comms",
+      "tags": ["comms", "mission control", "secure", "trajectory"]
+    }
+  ]
+},
+  {
+  "dialogue_id": "task_reminder_7",
+  "turns": [
+    {
+      "speaker": "system",
+      "utterance": "Astronaut, you have an upcoming maintenance task to inspect the thermal shielding. Would you like me to guide you through the steps?",
+      "intent": "issue_task_reminder",
+      "tags": ["maintenance", "thermal shielding", "task", "reminder"]
+    },
+    {
+      "speaker": "astronaut",
+      "utterance": "Yes, Ashwini. Walk me through the process.",
+      "intent": "accept_task_reminder",
+      "tags": ["maintenance", "thermal shielding", "task"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "Begin by using the remote thermal scanner to check for any irregularities. Pay close attention to areas with high temperature deviations. Once complete, log the results in the maintenance database and proceed with manual inspection if necessary.",
+      "intent": "provide_task_steps",
+      "tags": ["maintenance", "thermal shielding", "scanner", "task"]
+    }
+  ]
+},
+  {
+  "dialogue_id": "docking_assistance_1",
+  "turns": [
+    {
+      "speaker": "astronaut",
+      "utterance": "Ashwini, guide me through the manual docking procedure.",
+      "intent": "request_docking_assistance",
+      "tags": ["docking", "manual", "procedure"]
+    },
+    {
+      "speaker": "system",
+      "utterance": "To manually dock, align the spacecraft with the docking port using thrusters. Reduce your approach speed to less than 0.1 meters per second as you near the port. Ensure the locking mechanisms are engaged once contact is made. Monitor the pressure equalization before opening the hatch.",
+      "intent": "provide_docking_assistance",
+      "tags": ["docking", "manual", "procedure", "thrusters"]
+    }
+  ]
+},
+    {
+    "dialogue_id": "oxygen_level_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what are the current oxygen levels in the cabin?",
+        "intent": "request_oxygen_level",
+        "tags": ["oxygen", "cabin", "environment"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The current oxygen level in the cabin is 21.3%, within safe parameters.",
+        "intent": "provide_oxygen_level",
+        "tags": ["oxygen", "cabin", "environment", "safe"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "maintenance_request_6",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, the life support system’s water filtration unit seems to be malfunctioning. Can you guide me through a manual reset?",
+        "intent": "request_manual_reset_filtration",
+        "tags": ["life support", "water filtration", "malfunction", "manual reset"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "To manually reset the water filtration unit, first isolate the system from the main life support grid. Open the filtration access panel, then power cycle the filtration pump by toggling the reset switch located on the side. Wait for 30 seconds before turning the system back on. Monitor the filtration process for any anomalies, and if the error persists, you may need to replace the filtration cartridge.",
+        "intent": "provide_manual_reset_steps",
+        "tags": ["manual reset", "water filtration", "life support", "pump", "cartridge"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "battery_status_4",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the current charge of the backup batteries?",
+        "intent": "request_battery_status",
+        "tags": ["battery", "backup", "charge", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The backup batteries are currently charged at 76%. No immediate action is required, but it is advisable to top them up if time permits.",
+        "intent": "provide_battery_status",
+        "tags": ["battery", "backup", "charge", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "symptom_report_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I’m feeling lightheaded and a bit dizzy. Could you check my vitals?",
+        "intent": "report_symptom",
+        "tags": ["symptom", "lightheaded", "dizzy", "vitals"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "I’ve checked your vitals. Your blood pressure is 110/70 mmHg, which is within normal range. However, your oxygen saturation is slightly low at 95%, and your hydration level is at 57%. I recommend increasing your fluid intake and resting. If symptoms persist, please notify Mission Control.",
+        "intent": "provide_vital_status",
+        "tags": ["vitals", "blood pressure", "oxygen saturation", "hydration", "health"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_protocol_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I’ve detected a fire in the storage compartment. Initiate emergency protocol immediately!",
+        "intent": "report_fire_emergency",
+        "tags": ["emergency", "fire", "protocol", "storage"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency protocol activated. Fire suppression systems are online and engaging in the storage compartment. Sealing off the area and venting atmosphere to suppress the fire. Mission Control has been notified. Please move to the nearest safe zone and await further instructions.",
+        "intent": "initiate_emergency_protocol",
+        "tags": ["emergency", "fire suppression", "safety", "Mission Control"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "nutrition_reminder_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Astronaut, it’s time for your scheduled meal. Your calorie intake for today is below the recommended level. Would you like to access your nutritional plan?",
+        "intent": "issue_nutrition_reminder",
+        "tags": ["nutrition", "calories", "health", "reminder"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Yes, Ashwini. Show me my current nutritional plan.",
+        "intent": "acknowledge_nutrition_reminder",
+        "tags": ["nutrition", "calories", "health", "plan"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "thruster_check_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I need a performance report on the spacecraft's thrusters. How are they holding up?",
+        "intent": "request_thruster_status",
+        "tags": ["thrusters", "performance", "spacecraft"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The spacecraft’s thrusters are operating at 93% efficiency. There is slight wear on the forward thruster nozzles, but it's within acceptable limits. No immediate maintenance is required.",
+        "intent": "provide_thruster_status",
+        "tags": ["thrusters", "performance", "spacecraft", "maintenance"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "orbital_adjustment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, Mission Control has requested an orbital adjustment by 5 degrees. Can you help me calculate the thrust needed to achieve this?",
+        "intent": "request_orbital_adjustment_calculation",
+        "tags": ["orbital adjustment", "thrust", "calculation"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "To adjust the orbit by 5 degrees, you’ll need to initiate a burn with a thrust vector of 45 Newtons for 120 seconds. Ensure that all non-essential systems are powered down to avoid energy drain during the maneuver. I'll monitor the thrust levels and adjust if necessary.",
+        "intent": "provide_orbital_adjustment_calculation",
+        "tags": ["orbital adjustment", "thrust", "burn", "calculation"]
+      }
+    ]
+  },
+    {
+    "dialogue_id": "temperature_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, it’s feeling a bit chilly in here. Can you raise the cabin temperature by 2 degrees?",
+        "intent": "request_temperature_increase",
+        "tags": ["temperature", "cabin", "comfort"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Increasing cabin temperature by 2 degrees. The current temperature is now 22°C. Let me know if further adjustments are needed.",
+        "intent": "confirm_temperature_adjustment",
+        "tags": ["temperature", "cabin", "adjustment", "comfort"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_panel_check_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the current efficiency of the solar panels?",
+        "intent": "request_solar_panel_status",
+        "tags": ["solar panels", "efficiency", "power"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The solar panels are operating at 85% efficiency. No significant degradation has been detected.",
+        "intent": "provide_solar_panel_status",
+        "tags": ["solar panels", "efficiency", "power"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "comms_with_mission_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, establish a direct communication link with Mission Control. I need to report an issue with the navigation system.",
+        "intent": "request_mission_control_comms",
+        "tags": ["comms", "Mission Control", "navigation system", "issue"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Establishing direct communication link with Mission Control. You may proceed with your report.",
+        "intent": "confirm_mission_control_comms",
+        "tags": ["comms", "Mission Control", "report", "navigation system"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "eva_suit_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, perform a status check on my EVA suit. I want to make sure it's ready for the upcoming spacewalk.",
+        "intent": "request_eva_suit_check",
+        "tags": ["EVA", "suit", "spacewalk", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Performing EVA suit check. Oxygen levels are at 98%, power supply at 95%, and thermal regulation systems are operational. Suit is ready for the upcoming spacewalk.",
+        "intent": "provide_eva_suit_status",
+        "tags": ["EVA", "suit", "oxygen", "power", "thermal regulation", "spacewalk"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "waste_management_alert_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Alert: The waste management system is approaching capacity. Immediate action is required to avoid overflow.",
+        "intent": "issue_waste_management_alert",
+        "tags": ["waste management", "capacity", "alert", "overflow"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the waste ejection sequence and clear the system.",
+        "intent": "request_waste_ejection",
+        "tags": ["waste management", "ejection", "system", "overflow"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Waste ejection sequence initiated. The system is now clearing, and capacity has been restored to 10%.",
+        "intent": "confirm_waste_ejection",
+        "tags": ["waste management", "ejection", "system", "capacity"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "thruster_overheat_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Warning: Thrusters are experiencing overheating. Reduce thrust output immediately to prevent damage.",
+        "intent": "issue_thruster_overheat_warning",
+        "tags": ["thrusters", "overheat", "warning", "thrust"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, reduce thruster output by 30%. Monitor the temperature and notify me if it stabilizes.",
+        "intent": "request_thruster_output_reduction",
+        "tags": ["thrusters", "overheat", "thrust", "temperature"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thrust output reduced by 30%. Thruster temperature is stabilizing and returning to normal operating range.",
+        "intent": "confirm_thruster_output_reduction",
+        "tags": ["thrusters", "overheat", "temperature", "stabilized"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "co2_warning_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Alert: Carbon dioxide levels in the cabin are rising above safe thresholds. Ventilation system malfunction detected.",
+        "intent": "issue_co2_warning",
+        "tags": ["CO2", "ventilation", "safety", "warning"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, engage the secondary ventilation system and reroute cabin air through the scrubbers.",
+        "intent": "request_ventilation_reroute",
+        "tags": ["ventilation", "CO2", "safety", "scrubbers"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Secondary ventilation system engaged. Cabin air is being rerouted through the scrubbers. CO2 levels are dropping to safe levels.",
+        "intent": "confirm_ventilation_reroute",
+        "tags": ["ventilation", "CO2", "safety", "scrubbers", "air"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "power_grid_reconfig_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I need to reconfigure the power grid to prioritize life support. Can you assist?",
+        "intent": "request_power_grid_reconfig",
+        "tags": ["power grid", "life support", "reconfiguration", "priority"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Reconfiguring power grid. Life support systems are now prioritized. Non-essential systems have been powered down to conserve energy.",
+        "intent": "confirm_power_grid_reconfig",
+        "tags": ["power grid", "life support", "priority", "energy"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "hull_inspection_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I want to perform an external hull inspection. Are there any visible anomalies on the hull cameras?",
+        "intent": "request_hull_inspection",
+        "tags": ["hull", "inspection", "anomalies", "camera"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "No visible anomalies detected on the hull cameras. The spacecraft’s external structure appears intact.",
+        "intent": "confirm_hull_integrity",
+        "tags": ["hull", "inspection", "anomalies", "camera", "integrity"]
+      }
+    ]
+  },
+    {
+    "dialogue_id": "oxygen_supply_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you check the oxygen supply level in the main tank?",
+        "intent": "request_oxygen_supply_status",
+        "tags": ["oxygen", "supply", "tank", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Oxygen supply in the main tank is at 72%. No abnormalities detected.",
+        "intent": "provide_oxygen_supply_status",
+        "tags": ["oxygen", "supply", "tank", "status", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "battery_diagnostics_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run a diagnostic on the spacecraft’s battery system. I want to ensure it's holding charge properly.",
+        "intent": "request_battery_diagnostics",
+        "tags": ["battery", "diagnostics", "power", "charge"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Battery diagnostic complete. The system is holding charge at 96% capacity, with no detectable issues.",
+        "intent": "provide_battery_diagnostics",
+        "tags": ["battery", "diagnostics", "power", "capacity"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "navigation_system_reboot_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, reboot the navigation system. We’ve been experiencing intermittent issues with it.",
+        "intent": "request_navigation_system_reboot",
+        "tags": ["navigation", "reboot", "system", "issues"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Rebooting the navigation system now. The system will be offline for approximately 30 seconds. Please standby.",
+        "intent": "confirm_navigation_reboot",
+        "tags": ["navigation", "reboot", "system", "offline"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Navigation system reboot complete. All subsystems are now operational.",
+        "intent": "confirm_navigation_reboot_complete",
+        "tags": ["navigation", "reboot", "complete", "operational"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "fuel_level_alert_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Warning: Fuel levels are below 20%. Immediate refueling is recommended.",
+        "intent": "issue_fuel_level_alert",
+        "tags": ["fuel", "alert", "levels", "low"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the fuel transfer from the reserve tank.",
+        "intent": "request_fuel_transfer",
+        "tags": ["fuel", "transfer", "reserve", "low"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Fuel transfer initiated. Reserve tank levels are stable, and main tank levels are rising.",
+        "intent": "confirm_fuel_transfer",
+        "tags": ["fuel", "transfer", "reserve", "main", "stable"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "docking_clamps_release_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, prepare to release the docking clamps for undocking.",
+        "intent": "request_docking_clamps_release",
+        "tags": ["docking", "clamps", "undocking", "release"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Docking clamps are now released. You are cleared to undock from the station.",
+        "intent": "confirm_docking_clamps_release",
+        "tags": ["docking", "clamps", "undocking", "release"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "food_supply_inventory_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, provide the latest food supply inventory.",
+        "intent": "request_food_supply_inventory",
+        "tags": ["food", "supply", "inventory", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Food supply inventory report: 45% remaining. Estimated duration at current consumption rates: 12 days.",
+        "intent": "provide_food_supply_inventory",
+        "tags": ["food", "supply", "inventory", "duration"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "hydration_reminder_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Reminder: Your hydration levels are below optimal thresholds. I recommend drinking 250 ml of water.",
+        "intent": "issue_hydration_reminder",
+        "tags": ["hydration", "reminder", "health", "water"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Acknowledged. I’ll take a hydration break now.",
+        "intent": "confirm_hydration_reminder",
+        "tags": ["hydration", "water", "health", "acknowledgement"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_reboot_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate a full system reboot. The spacecraft's main control interface is unresponsive.",
+        "intent": "request_system_reboot",
+        "tags": ["system", "reboot", "control", "unresponsive"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Initiating full system reboot. All non-essential systems will go offline for approximately 2 minutes.",
+        "intent": "confirm_system_reboot",
+        "tags": ["system", "reboot", "offline", "control"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "System reboot complete. Main control interface is now fully operational.",
+        "intent": "confirm_system_reboot_complete",
+        "tags": ["system", "reboot", "complete", "operational"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_emergency_drill_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Initiating emergency drill. All crew members must report to their designated safety stations.",
+        "intent": "initiate_emergency_drill",
+        "tags": ["emergency", "drill", "safety", "crew"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Acknowledged, Ashwini. I’m heading to my safety station.",
+        "intent": "confirm_emergency_drill",
+        "tags": ["emergency", "drill", "safety", "acknowledgement"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "external_communication_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I need to communicate with the lunar base. Can you establish a secure link?",
+        "intent": "request_lunar_base_comms",
+        "tags": ["lunar base", "communication", "secure", "link"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Establishing secure communication link with the lunar base. You may proceed with your message.",
+        "intent": "confirm_lunar_base_comms",
+        "tags": ["lunar base", "communication", "secure", "link"]
+      }
+    ]
+  },
+    {
+    "dialogue_id": "hatch_pressure_warning_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Warning: Pressure near the outer hatch has dropped to unsafe levels. Please investigate.",
+        "intent": "issue_hatch_pressure_warning",
+        "tags": ["pressure", "warning", "hatch", "safety"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate a manual pressure stabilization procedure for the outer hatch.",
+        "intent": "request_manual_pressure_stabilization",
+        "tags": ["pressure", "manual", "stabilization", "hatch"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Manual pressure stabilization initiated. Pressure levels are returning to normal.",
+        "intent": "confirm_pressure_stabilization",
+        "tags": ["pressure", "stabilization", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "equipment_malfunction_report_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I’m noticing irregularities with the environmental control system. Please run a diagnostic.",
+        "intent": "report_equipment_malfunction",
+        "tags": ["environmental control", "diagnostic", "malfunction"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Running diagnostic on the environmental control system... There is a minor airflow obstruction detected in vent B12. Suggest clearing the vent or rerouting air circulation.",
+        "intent": "provide_equipment_diagnostic",
+        "tags": ["environmental control", "airflow", "obstruction"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "medication_reminder_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "It’s time to take your scheduled medication: 500 mg calcium supplement.",
+        "intent": "issue_medication_reminder",
+        "tags": ["medication", "reminder", "health"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Acknowledged. I’ll take it now.",
+        "intent": "confirm_medication_reminder",
+        "tags": ["medication", "acknowledgement", "health"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "power_supply_switch_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, switch the power supply to the backup battery. The primary seems to be draining faster than expected.",
+        "intent": "request_power_supply_switch",
+        "tags": ["power", "supply", "backup", "primary"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Switching to backup battery. Power levels are stable.",
+        "intent": "confirm_power_supply_switch",
+        "tags": ["power", "backup", "stable"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_panel_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you run a check on the solar panels? We’ve been seeing fluctuations in power generation.",
+        "intent": "request_solar_panel_check",
+        "tags": ["solar", "panels", "check", "power", "generation"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Running diagnostics... One panel shows reduced efficiency due to dust accumulation. Recommend cleaning during next EVA.",
+        "intent": "provide_solar_panel_diagnostic",
+        "tags": ["solar", "panels", "dust", "efficiency", "EVA"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_warning_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Radiation levels are rising above safe thresholds. Please seek shelter in the radiation-safe zone.",
+        "intent": "issue_radiation_warning",
+        "tags": ["radiation", "warning", "safety", "threshold"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, notify the crew and activate the radiation shielding protocols.",
+        "intent": "request_radiation_shield_activation",
+        "tags": ["radiation", "shielding", "crew", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Radiation shielding protocols activated. Crew notified and moving to safe zones.",
+        "intent": "confirm_radiation_shield_activation",
+        "tags": ["radiation", "shielding", "crew", "safety"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "air_quality_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how’s the air quality in the habitation module?",
+        "intent": "request_air_quality_status",
+        "tags": ["air", "quality", "habitation", "module", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Air quality in the habitation module is good. Oxygen is at 21%, CO2 is at 0.04%, and no harmful particulates detected.",
+        "intent": "provide_air_quality_status",
+        "tags": ["air", "quality", "oxygen", "CO2", "particulates"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "exercise_reminder_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Reminder: It’s time for your daily exercise session. 45 minutes of cardio is recommended.",
+        "intent": "issue_exercise_reminder",
+        "tags": ["exercise", "reminder", "health", "cardio"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Thanks, Ashwini. I’ll start my exercise now.",
+        "intent": "confirm_exercise_reminder",
+        "tags": ["exercise", "acknowledgement", "health"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "communications_link_maintenance_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, the signal to Mission Control is weak. Can you boost the communications link?",
+        "intent": "request_comms_boost",
+        "tags": ["communications", "signal", "Mission Control", "boost"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Boosting communications link... Signal strength has improved by 40%.",
+        "intent": "confirm_comms_boost",
+        "tags": ["communications", "signal", "Mission Control", "boost"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_lockdown_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate emergency lockdown. We have an air leak in the cabin.",
+        "intent": "request_emergency_lockdown",
+        "tags": ["emergency", "lockdown", "air", "leak", "cabin"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency lockdown initiated. All bulkheads are sealed and internal pressure is stabilizing.",
+        "intent": "confirm_emergency_lockdown",
+        "tags": ["emergency", "lockdown", "bulkheads", "pressure", "stabilizing"]
+      }
+    ]
+  },
+   {
+    "dialogue_id": "battery_health_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the current status of the spacecraft's battery health?",
+        "intent": "request_battery_health_status",
+        "tags": ["battery", "health", "status", "power"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The battery is operating at 85% capacity. No immediate concerns, but performance is slightly below optimal. Consider recharging at your next opportunity.",
+        "intent": "provide_battery_health_status",
+        "tags": ["battery", "status", "performance", "power"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "carbon_filter_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the carbon dioxide filters. Are they working efficiently?",
+        "intent": "request_filter_status",
+        "tags": ["carbon dioxide", "filter", "status", "efficiency"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Carbon dioxide filters are functioning within safe parameters. Current CO2 levels in the cabin are well below the threshold at 0.03%.",
+        "intent": "provide_filter_status",
+        "tags": ["carbon dioxide", "filter", "CO2", "safety"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiator_temperature_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the temperature of the external radiators?",
+        "intent": "request_radiator_temperature",
+        "tags": ["temperature", "radiator", "external", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The temperature of the external radiators is currently 278K, operating normally under the current thermal load.",
+        "intent": "provide_radiator_temperature",
+        "tags": ["temperature", "radiator", "thermal", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "oxygen_reserve_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how much oxygen do we have in reserve?",
+        "intent": "request_oxygen_reserve_status",
+        "tags": ["oxygen", "reserve", "status", "life support"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The oxygen reserve is at 75%, sufficient for 72 more hours at the current rate of consumption. No immediate action required.",
+        "intent": "provide_oxygen_reserve_status",
+        "tags": ["oxygen", "reserve", "life support", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_beacon_activation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, activate the emergency beacon. We need to signal Mission Control.",
+        "intent": "request_emergency_beacon_activation",
+        "tags": ["emergency", "beacon", "Mission Control", "signal"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency beacon activated. Signal strength is strong. Mission Control has been alerted.",
+        "intent": "confirm_emergency_beacon_activation",
+        "tags": ["emergency", "beacon", "signal", "Mission Control"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "data_transfer_to_mission_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate data transfer to Mission Control for the last 24 hours of telemetry data.",
+        "intent": "request_data_transfer",
+        "tags": ["data transfer", "Mission Control", "telemetry"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Data transfer initiated. Transmitting the last 24 hours of telemetry data to Mission Control.",
+        "intent": "confirm_data_transfer",
+        "tags": ["data transfer", "telemetry", "Mission Control"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "EVA_schedule_confirmation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, confirm the schedule for the next EVA.",
+        "intent": "request_eva_schedule_confirmation",
+        "tags": ["EVA", "schedule", "mission"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The next EVA is scheduled for 14:00 UTC tomorrow. The primary task is solar panel maintenance, with an expected duration of 2 hours.",
+        "intent": "provide_eva_schedule_confirmation",
+        "tags": ["EVA", "schedule", "maintenance", "solar panel"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "food_supply_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how much food do we have left?",
+        "intent": "request_food_supply_status",
+        "tags": ["food", "supply", "status", "mission"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Current food supplies are sufficient for 14 days at the current consumption rate. Resupply mission is scheduled in 6 days.",
+        "intent": "provide_food_supply_status",
+        "tags": ["food", "supply", "status", "resupply"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "fuel_level_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the current fuel level?",
+        "intent": "request_fuel_level_status",
+        "tags": ["fuel", "level", "status", "spacecraft"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Fuel level is at 62%. This is sufficient for the planned course adjustments and return to base. No immediate concerns.",
+        "intent": "provide_fuel_level_status",
+        "tags": ["fuel", "level", "course adjustments", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "core_temperature_alert_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Warning: Core temperature is rising above safe operational limits. Immediate action is recommended.",
+        "intent": "issue_core_temperature_warning",
+        "tags": ["core", "temperature", "warning", "safety"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, activate the emergency cooling system to reduce core temperature.",
+        "intent": "request_cooling_system_activation",
+        "tags": ["core", "temperature", "cooling", "emergency"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency cooling system activated. Core temperature is decreasing.",
+        "intent": "confirm_cooling_system_activation",
+        "tags": ["cooling", "temperature", "emergency", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacesuit_integrity_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run an integrity check on my spacesuit.",
+        "intent": "request_spacesuit_integrity_check",
+        "tags": ["spacesuit", "integrity", "check", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Spacesuit integrity is confirmed. All systems are functioning properly. Oxygen supply is stable, and suit pressure is within normal limits.",
+        "intent": "provide_spacesuit_integrity_status",
+        "tags": ["spacesuit", "integrity", "oxygen", "pressure", "safety"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "water_filtration_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the status of the water filtration system.",
+        "intent": "request_water_filtration_status",
+        "tags": ["water", "filtration", "system", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Water filtration system is functioning normally. Filtration rate is at optimal levels, and no contaminants have been detected.",
+        "intent": "provide_water_filtration_status",
+        "tags": ["water", "filtration", "system", "status", "contaminants"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sensor_control_8",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the current oxygen level in the habitat?",
+        "intent": "request_oxygen_level",
+        "tags": ["oxygen", "habitat", "sensor"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The oxygen level in the habitat is at 21%, within safe limits.",
+        "intent": "provide_oxygen_level",
+        "tags": ["oxygen", "habitat", "sensor", "safe limits"]
+      }
+    ]
+},
+{
+    "dialogue_id": "system_status_7",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the status of the rover's battery?",
+        "intent": "request_battery_status",
+        "tags": ["battery", "rover", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The rover's battery is at 85% capacity, good for 3 more hours of operation.",
+        "intent": "provide_battery_status",
+        "tags": ["battery", "rover", "capacity"]
+      }
+    ]
+},
+{
+    "dialogue_id": "door_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, please open the airlock door.",
+        "intent": "request_open_door",
+        "tags": ["door", "airlock", "control"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Opening airlock door. Ensure pressure equalization.",
+        "intent": "provide_door_control_status",
+        "tags": ["door", "airlock", "pressure equalization"]
+      }
+    ]
+},
+{
+    "dialogue_id": "sensor_control_9",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the current temperature in the cargo bay?",
+        "intent": "request_temperature_data",
+        "tags": ["temperature", "cargo bay", "sensor"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The temperature in the cargo bay is 18°C, within optimal limits.",
+        "intent": "provide_temperature_data",
+        "tags": ["temperature", "cargo bay", "optimal limits","sensor"]
+      }
+    ]
+},
+{
+    "dialogue_id": "sensor_control_10",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you give me the radiation levels on the outer hull?",
+        "intent": "request_radiation_data",
+        "tags": ["radiation", "outer hull", "sensor"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Radiation levels on the outer hull are currently at 0.4 mSv, within safe exposure limits.",
+        "intent": "provide_radiation_data",
+        "tags": ["radiation", "outer hull", "safe limits"]
+      }
+    ]
+},
+{
+    "dialogue_id": "nutrient_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how are the nutrient levels in the hydroponics system?",
+        "intent": "request_nutrient_levels",
+        "tags": ["nutrient", "hydroponics", "supply"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Nutrient levels in the hydroponics system are adequate, with no replenishment needed.",
+        "intent": "provide_nutrient_levels",
+        "tags": ["nutrient", "hydroponics", "replenishment"]
+      }
+    ]
+},
+{
+    "dialogue_id": "fuel_level_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's our current fuel level for the thrusters?",
+        "intent": "request_fuel_level",
+        "tags": ["fuel", "thrusters", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thruster fuel level is at 62%, enough for the next maneuver.",
+        "intent": "provide_fuel_level",
+        "tags": ["fuel", "thrusters", "maneuver"]
+      }
+    ]
+},
+{
+    "dialogue_id": "comm_system_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, is the communication link with ground control active?",
+        "intent": "request_comm_status",
+        "tags": ["communication", "ground control", "link status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Communication link with ground control is active and stable.",
+        "intent": "provide_comm_status",
+        "tags": ["communication", "ground control", "active"]
+      }
+    ]
+},
+{
+    "dialogue_id": "sensor_control_11",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you give me a status update on the power system?",
+        "intent": "request_power_status",
+        "tags": ["power", "system", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The power system is functioning at 95% efficiency, with no issues detected.",
+        "intent": "provide_power_status",
+        "tags": ["power", "system", "efficiency"]
+      }
+    ]
+},
+{
+    "dialogue_id": "task_reminder_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me to check the solar panels in two hours.",
+        "intent": "set_task_reminder",
+        "tags": ["task", "solar panels", "reminder"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Reminder set. I will notify you in two hours to check the solar panels.",
+        "intent": "confirm_task_reminder",
+        "tags": ["task", "solar panels", "reminder"]
+      }
+    ]
+},
+{
+    "dialogue_id": "emergency_oxygen_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, activate the emergency oxygen supply in the cockpit.",
+        "intent": "request_activate_oxygen",
+        "tags": ["emergency", "oxygen", "cockpit"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency oxygen supply activated in the cockpit.",
+        "intent": "confirm_activate_oxygen",
+        "tags": ["emergency", "oxygen", "activated"]
+      }
+    ]
+},
+{
+    "dialogue_id": "cabin_pressure_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you give me the cabin pressure reading?",
+        "intent": "request_pressure_data",
+        "tags": ["pressure", "cabin", "sensor"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Cabin pressure is steady at 101 kPa, within the safety margin.",
+        "intent": "provide_pressure_data",
+        "tags": ["pressure", "cabin", "safety margin"]
+      }
+    ]
+},
+{
+    "dialogue_id": "battery_recharge_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate battery recharge for the spacewalk suit.",
+        "intent": "request_recharge_battery",
+        "tags": ["battery", "spacewalk suit", "recharge"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Battery recharge initiated for the spacewalk suit. Estimated time to full charge is 30 minutes.",
+        "intent": "confirm_recharge_battery",
+        "tags": ["battery", "spacewalk suit", "recharge"]
+      }
+    ]
+},
+{
+    "dialogue_id": "health_check_6",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's my current heart rate?",
+        "intent": "request_heart_rate",
+        "tags": ["health", "heart rate", "vital signs"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your heart rate is 72 beats per minute, within the normal range.",
+        "intent": "provide_heart_rate",
+        "tags": ["health", "heart rate", "normal"]
+      }
+    ]
+},
+{
+    "dialogue_id": "task_reminder_2",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me to drink water every two hours.",
+        "intent": "set_hydration_reminder",
+        "tags": ["hydration", "reminder", "health"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Hydration reminder set. I'll notify you every two hours.",
+        "intent": "confirm_hydration_reminder",
+        "tags": ["hydration", "reminder", "set"]
+      }
+    ]
+},
+{
+    "dialogue_id": "health_check_7",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how much sleep did I get last night?",
+        "intent": "request_sleep_cycle",
+        "tags": ["sleep", "health", "cycle"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "You slept for 6 hours and 45 minutes, which is within the recommended range.",
+        "intent": "provide_sleep_cycle",
+        "tags": ["sleep", "health", "recommended range"]
+      }
+    ]
+},
+{
+    "dialogue_id": "mission_schedule_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's on the mission schedule for today?",
+        "intent": "request_mission_schedule",
+        "tags": ["mission", "schedule", "task"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Today’s mission includes a spacewalk at 14:00 for solar panel maintenance and a systems check at 16:00.",
+        "intent": "provide_mission_schedule",
+        "tags": ["mission", "schedule", "spacewalk", "maintenance"]
+      }
+    ]
+},
+{
+    "dialogue_id": "inventory_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the status of our water supply?",
+        "intent": "request_inventory_status",
+        "tags": ["supplies", "water", "inventory"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Water supply is at 60%, sufficient for the next 5 days.",
+        "intent": "provide_inventory_status",
+        "tags": ["supplies", "water", "status"]
+      }
+    ]
+},
+{
+    "dialogue_id": "spacesuit_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the integrity of my spacesuit.",
+        "intent": "request_spacesuit_check",
+        "tags": ["spacesuit", "status", "integrity"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Spacesuit integrity is 100%. All systems are functional.",
+        "intent": "provide_spacesuit_check",
+        "tags": ["spacesuit", "status", "functional"]
+      }
+    ]
+},
+{
+    "dialogue_id": "muscle_fatigue_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, monitor my muscle fatigue during this exercise session.",
+        "intent": "request_muscle_fatigue_monitoring",
+        "tags": ["health", "muscle fatigue", "exercise"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Monitoring muscle fatigue. Current levels are within safe limits.",
+        "intent": "provide_muscle_fatigue_status",
+        "tags": ["health", "muscle fatigue", "safe limits"]
+      }
+    ]
+},
+{
+    "dialogue_id": "spacewalk_protocol_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, start the safety checklist for my spacewalk.",
+        "intent": "request_safety_checklist",
+        "tags": ["spacewalk", "safety", "checklist"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Beginning spacewalk safety checklist. Step 1: Verify spacesuit pressure is stable.",
+        "intent": "provide_safety_checklist_step",
+        "tags": ["spacewalk", "safety", "checklist", "spacesuit pressure"]
+      }
+    ]
+},
+{
+    "dialogue_id": "docking_procedure_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the docking procedure for the cargo module.",
+        "intent": "request_docking_procedure",
+        "tags": ["docking", "procedure", "cargo module"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Docking procedure initiated. Cargo module alignment is optimal.",
+        "intent": "confirm_docking_procedure",
+        "tags": ["docking", "procedure", "cargo module", "alignment"]
+      }
+    ]
+},
+{
+    "dialogue_id": "medical_assistance_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, I’m feeling dizzy. Can you diagnose the problem?",
+        "intent": "request_medical_assistance",
+        "tags": ["medical", "health", "dizzy"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Possible dehydration detected. Please drink water and monitor symptoms.",
+        "intent": "provide_medical_assistance",
+        "tags": ["medical", "health", "dehydration"]
+      }
+    ]
+},
+{
+    "dialogue_id": "debris_warning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, is there any incoming space debris?",
+        "intent": "request_debris_warning",
+        "tags": ["debris", "space", "warning"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Warning: Small space debris detected at 0.5 km, no immediate threat.",
+        "intent": "provide_debris_warning",
+        "tags": ["debris", "space", "warning", "no threat"]
+      }
+    ]
+},
+{
+    "dialogue_id": "engine_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how’s the status of the main engines?",
+        "intent": "request_engine_status",
+        "tags": ["engine", "status", "main engines"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Main engines are running at 98% efficiency, with no issues detected.",
+        "intent": "provide_engine_status",
+        "tags": ["engine", "status", "efficiency"]
+      }
+    ]
+},{
+    "dialogue_id": "blood_oxygen_monitoring_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s my current blood oxygen level?",
+        "intent": "request_blood_oxygen_level",
+        "tags": ["health", "blood oxygen", "vital signs"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your blood oxygen level is at 98%, within normal limits.",
+        "intent": "provide_blood_oxygen_level",
+        "tags": ["health", "blood oxygen", "normal"]
+      }
+    ]
+},
+{
+    "dialogue_id": "orientation_adjustment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, adjust the spacecraft’s orientation by 15 degrees.",
+        "intent": "request_orientation_adjustment",
+        "tags": ["spacecraft", "orientation", "adjustment"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Orientation adjusted by 15 degrees. Current alignment is optimal.",
+        "intent": "confirm_orientation_adjustment",
+        "tags": ["spacecraft", "orientation", "adjustment", "optimal"]
+      }
+    ]
+},
+{
+    "dialogue_id": "fire_safety_protocol_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate fire safety protocol in the lab.",
+        "intent": "request_fire_safety_protocol",
+        "tags": ["fire", "safety", "protocol", "lab"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Fire safety protocol initiated. Emergency ventilation is active.",
+        "intent": "confirm_fire_safety_protocol",
+        "tags": ["fire", "safety", "protocol", "ventilation"]
+      }
+    ]
+},
+{
+    "dialogue_id": "microgravity_experiment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me to start the microgravity experiment in one hour.",
+        "intent": "set_experiment_reminder",
+        "tags": ["microgravity", "experiment", "reminder"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Reminder set. I’ll notify you to start the experiment in one hour.",
+        "intent": "confirm_experiment_reminder",
+        "tags": ["microgravity", "experiment", "reminder"]
+      }
+    ]
+},
+
+  {
+    "dialogue_id": "diagnostic_report_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run a diagnostic report on the life support systems.",
+        "intent": "request_diagnostic_report",
+        "tags": ["diagnostic", "life support", "report"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Life support systems diagnostic complete. All systems are functioning within normal parameters.",
+        "intent": "provide_diagnostic_report",
+        "tags": ["diagnostic", "life support", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "oxygen_supply_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the oxygen supply in the main cabin.",
+        "intent": "request_oxygen_supply_status",
+        "tags": ["oxygen", "supply", "main cabin"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Oxygen supply in the main cabin is at 85%.",
+        "intent": "provide_oxygen_supply_status",
+        "tags": ["oxygen", "supply", "main cabin"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "gravity_sensor_calibration_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, calibrate the gravity sensor for the lab.",
+        "intent": "request_gravity_sensor_calibration",
+        "tags": ["gravity sensor", "calibration", "lab"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Gravity sensor calibration complete for the lab.",
+        "intent": "confirm_gravity_sensor_calibration",
+        "tags": ["gravity sensor", "calibration", "complete"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_flare_warning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, any solar flare activity expected soon?",
+        "intent": "request_solar_flare_warning",
+        "tags": ["solar flare", "activity", "warning"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "No significant solar flare activity detected in the next 48 hours.",
+        "intent": "provide_solar_flare_warning",
+        "tags": ["solar flare", "activity", "warning", "safe"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "airlock_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you check the airlock pressure?",
+        "intent": "request_airlock_status",
+        "tags": ["airlock", "pressure", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Airlock pressure is steady at 99 kPa.",
+        "intent": "provide_airlock_status",
+        "tags": ["airlock", "pressure", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_progress_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the progress on the power system repair?",
+        "intent": "request_task_progress",
+        "tags": ["task", "progress", "power system repair"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The power system repair is 75% complete.",
+        "intent": "provide_task_progress",
+        "tags": ["task", "progress", "power system repair"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "health_scan_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate a full body health scan.",
+        "intent": "request_health_scan",
+        "tags": ["health", "scan", "full body"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Full body health scan initiated. Results will be available in 10 minutes.",
+        "intent": "confirm_health_scan_initiation",
+        "tags": ["health", "scan", "initiation"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_shield_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, activate the radiation shield for the command module.",
+        "intent": "request_radiation_shield_activation",
+        "tags": ["radiation", "shield", "command module"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Radiation shield activated for the command module.",
+        "intent": "confirm_radiation_shield_activation",
+        "tags": ["radiation", "shield", "activation", "command module"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "visual_data_request_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you show me the visual data from the external cameras?",
+        "intent": "request_visual_data",
+        "tags": ["visual data", "external cameras", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Displaying live visual data from the external cameras.",
+        "intent": "provide_visual_data",
+        "tags": ["visual data", "external cameras", "live"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "environmental_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, adjust the humidity level in the living quarters to 45%.",
+        "intent": "request_humidity_adjustment",
+        "tags": ["environmental control", "humidity", "living quarters"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Humidity level in the living quarters set to 45%.",
+        "intent": "confirm_humidity_adjustment",
+        "tags": ["environmental control", "humidity", "living quarters"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_exit_plan_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the fastest exit plan in case of an emergency?",
+        "intent": "request_emergency_exit_plan",
+        "tags": ["emergency", "exit", "plan"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The fastest exit plan is via the main airlock. All paths are clear.",
+        "intent": "provide_emergency_exit_plan",
+        "tags": ["emergency", "exit", "airlock"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "descent_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run a pre-descent check on the spacecraft systems.",
+        "intent": "request_descent_check",
+        "tags": ["descent", "check", "spacecraft systems"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Pre-descent check complete. All systems are operational.",
+        "intent": "provide_descent_check_status",
+        "tags": ["descent", "check", "spacecraft systems", "operational"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "temperature_warning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, alert me if the internal temperature exceeds 30°C.",
+        "intent": "set_temperature_warning",
+        "tags": ["temperature", "warning", "internal"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Temperature warning set for 30°C. I will notify you if it exceeds this threshold.",
+        "intent": "confirm_temperature_warning",
+        "tags": ["temperature", "warning", "set"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "task_delegation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, delegate the task of system diagnostics to Crew Member 2.",
+        "intent": "request_task_delegation",
+        "tags": ["task", "delegation", "system diagnostics"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Task of system diagnostics delegated to Crew Member 2.",
+        "intent": "confirm_task_delegation",
+        "tags": ["task", "delegation", "system diagnostics", "Crew Member 2"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "nutrient_intake_reminder_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me to take my nutrient intake every four hours.",
+        "intent": "set_nutrient_intake_reminder",
+        "tags": ["nutrient", "intake", "reminder"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Reminder set for nutrient intake every four hours.",
+        "intent": "confirm_nutrient_intake_reminder",
+        "tags": ["nutrient", "intake", "reminder", "set"]
+      }
+    ]
+},
+{
+    "dialogue_id": "re_entry_checklist_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, let's go over the re-entry checklist.",
+        "intent": "request_re_entry_checklist",
+        "tags": ["re-entry", "checklist", "review"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Re-entry checklist loaded. Step 1: Secure all loose equipment.",
+        "intent": "provide_re_entry_checklist",
+        "tags": ["re-entry", "checklist", "step 1"]
+      }
+    ]
+},
+{
+    "dialogue_id": "fuel_reserves_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the status of our fuel reserves?",
+        "intent": "request_fuel_reserves_status",
+        "tags": ["fuel", "reserves", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Fuel reserves are at 68%.",
+        "intent": "provide_fuel_reserves_status",
+        "tags": ["fuel", "reserves", "status"]
+      }
+    ]
+},
+{
+    "dialogue_id": "thruster_power_adjustment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, increase thruster power to 80%.",
+        "intent": "request_thruster_power_adjustment",
+        "tags": ["thruster", "power", "adjustment"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thruster power set to 80%.",
+        "intent": "confirm_thruster_power_adjustment",
+        "tags": ["thruster", "power", "adjustment", "set"]
+      }
+    ]
+},
+{
+    "dialogue_id": "crew_status_update_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, give me a status update on all crew members.",
+        "intent": "request_crew_status_update",
+        "tags": ["crew", "status", "update"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All crew members are in good condition. No issues reported.",
+        "intent": "provide_crew_status_update",
+        "tags": ["crew", "status", "update", "good condition"]
+      }
+    ]
+},
+  {
+    "dialogue_id": "suit_pressure_adjustment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, adjust the suit pressure by 5 kPa.",
+        "intent": "request_suit_pressure_adjustment",
+        "tags": ["suit", "pressure", "adjustment", "5 kPa"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Suit pressure adjusted by 5 kPa.",
+        "intent": "confirm_suit_pressure_adjustment",
+        "tags": ["suit", "pressure", "adjustment", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_panel_efficiency_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the efficiency of the solar panels?",
+        "intent": "request_solar_panel_efficiency",
+        "tags": ["solar panels", "efficiency", "request", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Solar panel efficiency is currently at 85%.",
+        "intent": "provide_solar_panel_efficiency",
+        "tags": ["solar panels", "efficiency", "provide", "85%"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "evacuation_protocols_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate emergency evacuation protocols.",
+        "intent": "request_emergency_evacuation_protocol",
+        "tags": ["emergency", "evacuation", "protocols", "initiate"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency evacuation protocols initiated. Please proceed to the escape pod.",
+        "intent": "confirm_emergency_evacuation_protocol",
+        "tags": ["emergency", "evacuation", "protocols", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "oxygen_level_alert_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, are oxygen levels dropping?",
+        "intent": "request_oxygen_level_alert",
+        "tags": ["oxygen", "levels", "alert", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Oxygen levels have decreased by 2%. Current level is 98%.",
+        "intent": "provide_oxygen_level_alert",
+        "tags": ["oxygen", "levels", "alert", "decrease"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "space_mission_update_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, give me an update on the mission timeline.",
+        "intent": "request_mission_update",
+        "tags": ["mission", "timeline", "update", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Current mission timeline remains on schedule. Next task: deploy satellite in 2 hours.",
+        "intent": "provide_mission_update",
+        "tags": ["mission", "timeline", "update", "provide"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "exercise_reminder_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me to start my exercise routine in 20 minutes.",
+        "intent": "set_exercise_reminder",
+        "tags": ["exercise", "routine", "reminder", "set"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Exercise reminder set for 20 minutes from now.",
+        "intent": "confirm_exercise_reminder",
+        "tags": ["exercise", "routine", "reminder", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "communication_blackout_alert_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, are we approaching a communication blackout?",
+        "intent": "request_communication_blackout_alert",
+        "tags": ["communication", "blackout", "alert", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "A communication blackout is expected in 15 minutes due to orbital position.",
+        "intent": "provide_communication_blackout_alert",
+        "tags": ["communication", "blackout", "alert", "provide"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "camera_feed_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, switch the camera feed to exterior view.",
+        "intent": "request_camera_feed_switch",
+        "tags": ["camera", "feed", "switch", "exterior view"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Camera feed switched to exterior view.",
+        "intent": "confirm_camera_feed_switch",
+        "tags": ["camera", "feed", "switch", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_exposure_warning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, is there any radiation exposure risk?",
+        "intent": "request_radiation_exposure_warning",
+        "tags": ["radiation", "exposure", "warning", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Current radiation levels are safe, no immediate risk detected.",
+        "intent": "provide_radiation_exposure_warning",
+        "tags": ["radiation", "exposure", "warning", "safe"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "toolkit_inventory_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the toolkit inventory for the upcoming repair.",
+        "intent": "request_toolkit_inventory_check",
+        "tags": ["toolkit", "inventory", "check", "repair"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Toolkit inventory confirmed. All necessary tools are available.",
+        "intent": "provide_toolkit_inventory_check",
+        "tags": ["toolkit", "inventory", "check", "provide"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sleep_quality_monitor_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, monitor my sleep quality during this rest cycle.",
+        "intent": "request_sleep_quality_monitor",
+        "tags": ["sleep", "quality", "monitor", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Sleep quality monitoring activated for this cycle.",
+        "intent": "confirm_sleep_quality_monitor",
+        "tags": ["sleep", "quality", "monitor", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "battery_capacity_alert_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the current battery capacity?",
+        "intent": "request_battery_capacity_status",
+        "tags": ["battery", "capacity", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Battery capacity is at 70%, recharging is recommended within the next 6 hours.",
+        "intent": "provide_battery_capacity_status",
+        "tags": ["battery", "capacity", "status", "recharge"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_beacon_activation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, activate the emergency beacon immediately.",
+        "intent": "request_emergency_beacon_activation",
+        "tags": ["emergency", "beacon", "activation", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency beacon activated.",
+        "intent": "confirm_emergency_beacon_activation",
+        "tags": ["emergency", "beacon", "activation", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "research_experiment_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the status of the ongoing experiment in the lab?",
+        "intent": "request_experiment_status",
+        "tags": ["experiment", "lab", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The experiment is progressing as expected. Data collection will be complete in 1 hour.",
+        "intent": "provide_experiment_status",
+        "tags": ["experiment", "lab", "status", "progress"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "window_shield_closure_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, close the window shields for radiation protection.",
+        "intent": "request_window_shield_closure",
+        "tags": ["window", "shield", "close", "radiation"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Window shields closed for radiation protection.",
+        "intent": "confirm_window_shield_closure",
+        "tags": ["window", "shield", "close", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "hydration_reminder_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me to hydrate every 2 hours.",
+        "intent": "set_hydration_reminder",
+        "tags": ["hydration", "reminder", "2 hours", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Hydration reminder set for every 2 hours.",
+        "intent": "confirm_hydration_reminder",
+        "tags": ["hydration", "reminder", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "oxygen_replenishment_request_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the oxygen replenishment cycle for the cabin.",
+        "intent": "request_oxygen_replenishment",
+        "tags": ["oxygen", "replenishment", "cabin", "initiate"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Oxygen replenishment cycle initiated. The cabin will reach optimal levels in 15 minutes.",
+        "intent": "confirm_oxygen_replenishment",
+        "tags": ["oxygen", "replenishment", "cabin", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "equipment_diagnostic_scan_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, perform a diagnostic scan on the communications array.",
+        "intent": "request_equipment_diagnostic_scan",
+        "tags": ["equipment", "diagnostic", "scan", "communications array"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Diagnostic scan complete. No issues found in the communications array.",
+        "intent": "provide_diagnostic_scan_results",
+        "tags": ["equipment", "diagnostic", "scan", "results", "no issues"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "water_supply_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the status of the water supply reserves.",
+        "intent": "request_water_supply_status",
+        "tags": ["water", "supply", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Water supply reserves are currently at 75% capacity.",
+        "intent": "provide_water_supply_status",
+        "tags": ["water", "supply", "capacity", "provide"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacewalk_planning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, schedule my next spacewalk for tomorrow at 09:00 UTC.",
+        "intent": "request_spacewalk_scheduling",
+        "tags": ["spacewalk", "scheduling", "tomorrow", "09:00 UTC"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Spacewalk scheduled for tomorrow at 09:00 UTC.",
+        "intent": "confirm_spacewalk_scheduling",
+        "tags": ["spacewalk", "scheduling", "tomorrow", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "nutrient_intake_log_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, log my nutrient intake for the day.",
+        "intent": "request_nutrient_intake_log",
+        "tags": ["nutrient", "intake", "log", "day"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Nutrient intake has been logged. Your total calorie consumption is 2,500 kcal.",
+        "intent": "confirm_nutrient_intake_log",
+        "tags": ["nutrient", "intake", "log", "calories", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "thermal_control_adjustment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, reduce the cabin temperature by 3 degrees Celsius.",
+        "intent": "request_thermal_control_adjustment",
+        "tags": ["thermal", "control", "temperature", "reduce", "cabin"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Cabin temperature reduced by 3 degrees Celsius.",
+        "intent": "confirm_thermal_control_adjustment",
+        "tags": ["thermal", "control", "temperature", "reduce", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "battery_maintenance_procedure_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the battery maintenance procedure.",
+        "intent": "request_battery_maintenance_procedure",
+        "tags": ["battery", "maintenance", "procedure", "initiate"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Battery maintenance procedure initiated. Estimated completion in 45 minutes.",
+        "intent": "confirm_battery_maintenance_procedure",
+        "tags": ["battery", "maintenance", "procedure", "confirm", "45 minutes"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "debris_alert_warning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, is there any space debris in our current orbit?",
+        "intent": "request_debris_alert",
+        "tags": ["debris", "alert", "space", "orbit", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "There is no space debris detected in our current orbit.",
+        "intent": "provide_debris_alert_status",
+        "tags": ["debris", "alert", "status", "none"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_health_summary_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, provide a health summary of the crew.",
+        "intent": "request_crew_health_summary",
+        "tags": ["crew", "health", "summary", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The crew's health is stable. No abnormal vitals detected.",
+        "intent": "provide_crew_health_summary",
+        "tags": ["crew", "health", "summary", "stable"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_flare_risk_assessment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, assess the risk of solar flare activity in the next 24 hours.",
+        "intent": "request_solar_flare_risk_assessment",
+        "tags": ["solar flare", "risk", "assessment", "24 hours"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "No significant solar flare activity predicted in the next 24 hours.",
+        "intent": "provide_solar_flare_risk_assessment",
+        "tags": ["solar flare", "risk", "none", "24 hours"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "power_grid_analysis_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, analyze the power grid efficiency of the spacecraft.",
+        "intent": "request_power_grid_analysis",
+        "tags": ["power", "grid", "analysis", "efficiency", "spacecraft"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Power grid efficiency is optimal at 92%.",
+        "intent": "provide_power_grid_analysis",
+        "tags": ["power", "grid", "analysis", "efficiency", "92%"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "fuel_refill_estimation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, estimate the time required for the next fuel refill.",
+        "intent": "request_fuel_refill_estimation",
+        "tags": ["fuel", "refill", "estimation", "time"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The next fuel refill is estimated to take 2 hours.",
+        "intent": "provide_fuel_refill_estimation",
+        "tags": ["fuel", "refill", "estimation", "2 hours"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "docking_approach_clearance_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, is the approach to the docking station clear?",
+        "intent": "request_docking_approach_clearance",
+        "tags": ["docking", "approach", "clearance", "request"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The approach to the docking station is clear for landing.",
+        "intent": "provide_docking_approach_clearance",
+        "tags": ["docking", "approach", "clearance", "clear"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "waste_disposal_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the status of the waste disposal system.",
+        "intent": "request_waste_disposal_status",
+        "tags": ["waste", "disposal", "status", "system", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The waste disposal system is operating normally. No issues detected.",
+        "intent": "provide_waste_disposal_status",
+        "tags": ["waste", "disposal", "status", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "airlock_seal_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, verify if the airlock seals are functioning properly.",
+        "intent": "request_airlock_seal_check",
+        "tags": ["airlock", "seal", "functioning", "properly"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Airlock seals verified. All seals are functioning as expected.",
+        "intent": "provide_airlock_seal_status",
+        "tags": ["airlock", "seal", "functioning", "verify"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "medkit_inventory_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, perform an inventory check of the medkit.",
+        "intent": "request_medkit_inventory_check",
+        "tags": ["medkit", "inventory", "check", "medical supplies"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Medkit inventory is complete. All essential supplies are accounted for.",
+        "intent": "provide_medkit_inventory_status",
+        "tags": ["medkit", "inventory", "status", "complete"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sleep_cycle_adjustment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, adjust my sleep cycle to start at 22:00 UTC tonight.",
+        "intent": "request_sleep_cycle_adjustment",
+        "tags": ["sleep", "cycle", "adjust", "22:00 UTC"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your sleep cycle is now scheduled to start at 22:00 UTC tonight.",
+        "intent": "confirm_sleep_cycle_adjustment",
+        "tags": ["sleep", "cycle", "schedule", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_monitor_alert_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, monitor the radiation levels near the exterior hull.",
+        "intent": "request_radiation_monitoring",
+        "tags": ["radiation", "monitor", "exterior", "hull"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Radiation levels near the exterior hull are within safe limits.",
+        "intent": "provide_radiation_status",
+        "tags": ["radiation", "status", "exterior", "safe limits"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "manual_thruster_calibration_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate manual calibration of the thruster controls.",
+        "intent": "request_thruster_calibration",
+        "tags": ["thruster", "manual", "calibration", "controls"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thruster controls calibration in progress. Manual input required.",
+        "intent": "confirm_thruster_calibration",
+        "tags": ["thruster", "calibration", "manual", "progress"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "space_suit_pressure_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the pressure levels inside my space suit.",
+        "intent": "request_spacesuit_pressure_check",
+        "tags": ["spacesuit", "pressure", "check", "levels"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Pressure levels inside the space suit are within optimal range.",
+        "intent": "provide_spacesuit_pressure_status",
+        "tags": ["spacesuit", "pressure", "optimal", "range"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "life_support_system_diagnostics_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run diagnostics on the life support system.",
+        "intent": "request_life_support_diagnostics",
+        "tags": ["life support", "diagnostics", "system", "run"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Life support system diagnostics completed. All parameters are normal.",
+        "intent": "provide_life_support_diagnostics",
+        "tags": ["life support", "diagnostics", "normal", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_comms_relay_test_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, perform a communications relay test with mission control.",
+        "intent": "request_comms_relay_test",
+        "tags": ["communications", "relay", "test", "mission control"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Communications relay test completed. Signal strength is optimal.",
+        "intent": "provide_comms_relay_test_results",
+        "tags": ["communications", "relay", "test", "optimal", "signal strength"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "waste_recycling_system_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the operational status of the waste recycling system.",
+        "intent": "request_waste_recycling_status",
+        "tags": ["waste", "recycling", "system", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Waste recycling system is fully operational. No malfunctions detected.",
+        "intent": "provide_waste_recycling_status",
+        "tags": ["waste", "recycling", "operational", "malfunctions"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_array_efficiency_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, perform an efficiency check on the solar arrays.",
+        "intent": "request_solar_array_efficiency_check",
+        "tags": ["solar", "array", "efficiency", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Solar array efficiency is currently at 87%.",
+        "intent": "provide_solar_array_efficiency_status",
+        "tags": ["solar", "array", "efficiency", "status", "87%"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sleep_quality_assessment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, assess the quality of my last sleep cycle.",
+        "intent": "request_sleep_quality_assessment",
+        "tags": ["sleep", "quality", "assessment", "cycle"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your last sleep cycle was rated as optimal with minimal disturbances.",
+        "intent": "provide_sleep_quality_assessment",
+        "tags": ["sleep", "quality", "optimal", "minimal", "disturbances"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "airlock_pressurization_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, confirm if the airlock is fully pressurized.",
+        "intent": "request_airlock_pressurization_status",
+        "tags": ["airlock", "pressurization", "confirm", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The airlock is fully pressurized and ready for external operations.",
+        "intent": "provide_airlock_pressurization_status",
+        "tags": ["airlock", "pressurization", "fully", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_shutdown_protocol_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the emergency shutdown protocol for all external systems.",
+        "intent": "request_emergency_shutdown",
+        "tags": ["emergency", "shutdown", "protocol", "external", "systems"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency shutdown protocol initiated. All external systems are offline.",
+        "intent": "confirm_emergency_shutdown",
+        "tags": ["emergency", "shutdown", "external", "offline", "confirm"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "nutrition_supplement_advice_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what nutrition supplements should I take today based on my activity level?",
+        "intent": "request_nutrition_supplement_advice",
+        "tags": ["nutrition", "supplement", "advice", "activity level"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Based on your activity level, I recommend taking 20g of protein and 10g of fiber supplements.",
+        "intent": "provide_nutrition_supplement_advice",
+        "tags": ["nutrition", "supplement", "advice", "protein", "fiber"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "maintenance_tool_inventory_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check if all maintenance tools are in the storage bay.",
+        "intent": "request_maintenance_tool_inventory_check",
+        "tags": ["maintenance", "tool", "inventory", "storage bay"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All maintenance tools are accounted for in the storage bay.",
+        "intent": "confirm_maintenance_tool_inventory",
+        "tags": ["maintenance", "tool", "inventory", "confirm", "storage bay"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "oxygen_filter_replacement_reminder_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me to replace the oxygen filters after today's shift.",
+        "intent": "request_oxygen_filter_replacement_reminder",
+        "tags": ["oxygen", "filter", "replacement", "reminder", "shift"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Reminder set to replace the oxygen filters after your shift.",
+        "intent": "confirm_oxygen_filter_replacement_reminder",
+        "tags": ["oxygen", "filter", "replacement", "reminder", "confirm"]
+      }
+    ]
+  },
+    {
+    "dialogue_id": "thermal_control_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the thermal control system for anomalies.",
+        "intent": "request_thermal_control_check",
+        "tags": ["thermal", "control", "system", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thermal control system is functioning within normal parameters with no anomalies detected.",
+        "intent": "confirm_thermal_control_status",
+        "tags": ["thermal", "control", "functioning", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "exercise_regimen_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what does my exercise regimen look like for today?",
+        "intent": "request_exercise_regimen",
+        "tags": ["exercise", "regimen", "schedule", "daily"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Today, you have a cardio session at 1600 hours and resistance training at 1800 hours.",
+        "intent": "provide_exercise_schedule",
+        "tags": ["exercise", "schedule", "cardio", "resistance"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_monitoring_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, report on the current radiation levels outside the spacecraft.",
+        "intent": "request_radiation_levels",
+        "tags": ["radiation", "monitoring", "levels", "outside"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Radiation levels outside the spacecraft are currently at 0.05 mSv/h, which is safe.",
+        "intent": "confirm_radiation_levels_safe",
+        "tags": ["radiation", "levels", "safe", "0.05"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "communication_link_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, is the communication link with Mission Control active?",
+        "intent": "request_communication_link_status",
+        "tags": ["communication", "link", "Mission Control", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Communication link with Mission Control is active and functioning correctly.",
+        "intent": "confirm_communication_link_active",
+        "tags": ["communication", "link", "active", "functioning"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "payload_operation_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you check the status of the payload operations?",
+        "intent": "request_payload_operation_status",
+        "tags": ["payload", "operation", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Payload operations are running on schedule with no delays.",
+        "intent": "confirm_payload_operations_on_schedule",
+        "tags": ["payload", "operations", "running", "on schedule"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "water_recycling_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how is the water recycling system performing?",
+        "intent": "request_water_recycling_status",
+        "tags": ["water", "recycling", "system", "performance"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Water recycling system is performing optimally, maintaining a purity level of 99%.",
+        "intent": "confirm_water_recycling_optimal",
+        "tags": ["water", "recycling", "optimal", "purity"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_morale_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the current morale level of the crew?",
+        "intent": "request_crew_morale_status",
+        "tags": ["crew", "morale", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Crew morale is high, with positive feedback on teamwork and communication.",
+        "intent": "confirm_high_crew_morale",
+        "tags": ["crew", "morale", "high", "feedback"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "suit_integrity_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the integrity of my space suit.",
+        "intent": "request_suit_integrity_check",
+        "tags": ["suit", "integrity", "check", "space"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your space suit is intact and ready for use with no breaches detected.",
+        "intent": "confirm_suit_integrity_ok",
+        "tags": ["suit", "integrity", "intact", "no breaches"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "biometric_data_analysis_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, analyze my biometric data from the last 24 hours.",
+        "intent": "request_biometric_data_analysis",
+        "tags": ["biometric", "data", "analysis", "24 hours"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Biometric data indicates stable heart rate and oxygen levels, with no anomalies.",
+        "intent": "confirm_biometric_data_stable",
+        "tags": ["biometric", "data", "stable", "no anomalies"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "battery_status_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what is the status of the battery charge?",
+        "intent": "request_battery_status",
+        "tags": ["battery", "status", "charge", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Battery charge is at 85%, providing sufficient power for current operations.",
+        "intent": "confirm_battery_charge_sufficient",
+        "tags": ["battery", "charge", "85%", "sufficient"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "air_quality_monitoring_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the air quality in the cabin.",
+        "intent": "request_air_quality_check",
+        "tags": ["air", "quality", "monitoring", "cabin"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Air quality in the cabin is optimal, with oxygen levels at 21% and CO2 levels at 0.03%.",
+        "intent": "confirm_air_quality_optimal",
+        "tags": ["air", "quality", "optimal", "levels"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "surface_exploration_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, prepare for the surface exploration activity scheduled for tomorrow.",
+        "intent": "request_surface_exploration_preparation",
+        "tags": ["surface", "exploration", "activity", "preparation"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Surface exploration activity has been prepared and is set for tomorrow at 0800 hours.",
+        "intent": "confirm_surface_exploration_prepared",
+        "tags": ["surface", "exploration", "prepared", "0800"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_power_analysis_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, analyze the solar power generation for the past week.",
+        "intent": "request_solar_power_analysis",
+        "tags": ["solar", "power", "generation", "analysis"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Solar power generation has been consistent, averaging 300 kWh per day.",
+        "intent": "confirm_solar_power_generation_consistent",
+        "tags": ["solar", "power", "consistent", "300 kWh"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "experiment_results_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you show me the results of our latest experiment?",
+        "intent": "request_experiment_results",
+        "tags": ["experiment", "results", "latest", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Latest experiment results show a 20% increase in plant growth under controlled conditions.",
+        "intent": "confirm_experiment_results_positive",
+        "tags": ["experiment", "results", "increase", "plant growth"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_update_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what is the status of system updates?",
+        "intent": "request_system_update_status",
+        "tags": ["system", "update", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All systems are up to date with the latest software patches applied.",
+        "intent": "confirm_system_updates_applied",
+        "tags": ["system", "updates", "up to date", "patches"]
+      }
+    ]
+  },
+    {
+    "dialogue_id": "power_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you check the status of the solar panels?",
+        "intent": "request_solar_panel_status",
+        "tags": ["power", "solar panels", "status", "energy"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Solar panels are functioning optimally, generating 95% of their maximum capacity.",
+        "intent": "provide_solar_panel_status",
+        "tags": ["power", "solar panels", "functional", "capacity"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_health_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how is my hydration level today?",
+        "intent": "request_hydration_status",
+        "tags": ["hydration", "level", "health", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your hydration level is currently at 65%, which is acceptable but could be improved. Remember to drink water regularly.",
+        "intent": "provide_hydration_status",
+        "tags": ["hydration", "level", "health", "reminder"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_morale_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how are the crew's morale levels?",
+        "intent": "request_crew_morale_status",
+        "tags": ["morale", "crew", "levels", "assessment"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Current crew morale is rated at 7 out of 10, with positive feedback on teamwork and communication.",
+        "intent": "provide_crew_morale_status",
+        "tags": ["morale", "crew", "status", "feedback"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "vehicle_navigation_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, confirm the current trajectory towards the docking station.",
+        "intent": "request_trajectory_confirmation",
+        "tags": ["navigation", "trajectory", "docking", "station"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your current trajectory is accurate, and you are on course to dock in 45 minutes.",
+        "intent": "confirm_trajectory_status",
+        "tags": ["navigation", "trajectory", "docking", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacecraft_fuel_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the current fuel level?",
+        "intent": "request_fuel_level",
+        "tags": ["fuel", "level", "spacecraft", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Fuel level is at 80%, which is sufficient for the upcoming maneuvers.",
+        "intent": "provide_fuel_level_status",
+        "tags": ["fuel", "level", "sufficient", "maneuvers"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "research_data_access_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, retrieve the latest research data from the biochemistry lab.",
+        "intent": "request_research_data_retrieval",
+        "tags": ["research", "data", "biochemistry", "lab"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The latest research data from the biochemistry lab has been retrieved and is available for review.",
+        "intent": "confirm_research_data_retrieval",
+        "tags": ["research", "data", "biochemistry", "retrieved"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_update_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, have there been any recent updates to the onboard systems?",
+        "intent": "request_system_updates",
+        "tags": ["system", "updates", "onboard", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "There are no recent updates required for the onboard systems; all systems are up to date.",
+        "intent": "confirm_no_system_updates",
+        "tags": ["system", "updates", "status", "up to date"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "interplanetary_navigation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, provide navigation assistance for the interplanetary course adjustment.",
+        "intent": "request_navigation_assistance_interplanetary",
+        "tags": ["navigation", "assistance", "interplanetary", "course"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "For interplanetary course adjustment, initiate the burn sequence at the designated trajectory angle of 37 degrees.",
+        "intent": "provide_navigation_assistance",
+        "tags": ["navigation", "course", "adjustment", "burn sequence"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "system_performance_analysis_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, analyze the performance metrics of the life support system.",
+        "intent": "request_life_support_performance_analysis",
+        "tags": ["performance", "life support", "system", "analysis"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The life support system shows optimal performance metrics with 98% efficiency in oxygen recycling and CO2 filtration.",
+        "intent": "provide_life_support_performance_analysis",
+        "tags": ["performance", "life support", "metrics", "efficiency"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacewalk_preparation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, prepare the suit for the upcoming spacewalk.",
+        "intent": "request_prepare_spacewalk_suit",
+        "tags": ["spacewalk", "suit", "preparation", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Spacewalk suit preparation is complete. Suit integrity is confirmed, and communication systems are operational.",
+        "intent": "confirm_spacewalk_suit_prepared",
+        "tags": ["spacewalk", "suit", "integrity", "communication"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "mission_log_entry_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, log my observations about the asteroid belt.",
+        "intent": "request_log_observations",
+        "tags": ["mission", "log", "observations", "asteroid belt"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your observations about the asteroid belt have been logged successfully.",
+        "intent": "confirm_log_entry_success",
+        "tags": ["mission", "log", "success", "observations"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_protection_measures_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me of the radiation protection measures in place.",
+        "intent": "request_radiation_protection_measures",
+        "tags": ["radiation", "protection", "measures", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Current radiation protection measures include the use of shielding materials, periodic monitoring of radiation levels, and scheduled safe periods.",
+        "intent": "provide_radiation_protection_measures",
+        "tags": ["radiation", "protection", "shielding", "monitoring"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_equipment_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, perform a check on the emergency equipment.",
+        "intent": "request_emergency_equipment_check",
+        "tags": ["emergency", "equipment", "check", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency equipment check complete. All systems are functional and ready for use.",
+        "intent": "confirm_emergency_equipment_status",
+        "tags": ["emergency", "equipment", "functional", "safety"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "cargo_management_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what's the current status of the cargo manifests?",
+        "intent": "request_cargo_manifest_status",
+        "tags": ["cargo", "management", "status", "manifests"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All cargo manifests are updated and accurate. No discrepancies detected.",
+        "intent": "confirm_cargo_manifest_status",
+        "tags": ["cargo", "management", "updated", "accurate"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "waste_management_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the waste management systems for any issues.",
+        "intent": "request_waste_management_check",
+        "tags": ["waste", "management", "systems", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Waste management systems are functioning properly with no reported issues.",
+        "intent": "confirm_waste_management_status",
+        "tags": ["waste", "management", "functional", "no issues"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "extravehicular_activity_planning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, plan the extravehicular activity for the next mission phase.",
+        "intent": "request_plan_extravehicular_activity",
+        "tags": ["extravehicular", "activity", "planning", "mission"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Extravehicular activity planned for Day 7 of the mission, focusing on solar panel repairs.",
+        "intent": "confirm_extravehicular_activity_planned",
+        "tags": ["extravehicular", "activity", "planned", "solar panel"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "interpersonal_communication_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you check if I can communicate with Earth?",
+        "intent": "request_communication_status",
+        "tags": ["communication", "Earth", "check", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Communication with Earth is stable. You can initiate contact at any time.",
+        "intent": "confirm_communication_status",
+        "tags": ["communication", "Earth", "stable", "contact"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "equipment_inventory_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what is the status of our equipment inventory?",
+        "intent": "request_equipment_inventory_status",
+        "tags": ["equipment", "inventory", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Equipment inventory is complete. All items are accounted for, and no discrepancies are reported.",
+        "intent": "confirm_inventory_status",
+        "tags": ["equipment", "inventory", "complete", "accounted"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_alert_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, are there any radiation alerts currently?",
+        "intent": "request_radiation_alert_status",
+        "tags": ["radiation", "alerts", "check", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "No radiation alerts are currently active. All levels are within safety parameters.",
+        "intent": "confirm_no_radiation_alerts",
+        "tags": ["radiation", "alerts", "safety", "parameters"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_schedule_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what does my schedule look like for today?",
+        "intent": "request_daily_schedule",
+        "tags": ["schedule", "daily", "check", "astronaut"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Today, you have a research briefing at 0900 hours, followed by a maintenance task at 1100 hours.",
+        "intent": "provide_daily_schedule",
+        "tags": ["schedule", "daily", "briefing", "maintenance"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "medical_supply_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, do we have enough medical supplies for the mission duration?",
+        "intent": "request_medical_supply_status",
+        "tags": ["medical", "supplies", "status", "mission"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Medical supplies are sufficient for the duration of the mission, with 20% reserve capacity.",
+        "intent": "confirm_medical_supply_status",
+        "tags": ["medical", "supplies", "sufficient", "reserve"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "communication_device_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, verify the functionality of the communication devices.",
+        "intent": "request_communication_device_check",
+        "tags": ["communication", "devices", "functionality", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All communication devices are functional and ready for use.",
+        "intent": "confirm_communication_device_status",
+        "tags": ["communication", "devices", "functional", "ready"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "hydroponics_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the status of the hydroponics system.",
+        "intent": "request_hydroponics_system_status",
+        "tags": ["hydroponics", "system", "check", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Hydroponics system is fully operational with optimal nutrient levels.",
+        "intent": "confirm_hydroponics_system_status",
+        "tags": ["hydroponics", "system", "operational", "nutrient levels"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "artificial_gravity_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the status of the artificial gravity system?",
+        "intent": "request_artificial_gravity_status",
+        "tags": ["artificial", "gravity", "system", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The artificial gravity system is functioning properly, maintaining a consistent gravitational pull.",
+        "intent": "confirm_artificial_gravity_status",
+        "tags": ["artificial", "gravity", "functional", "consistent"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "safety_procedures_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, review the safety procedures for the docking process.",
+        "intent": "request_safety_procedures_docking",
+        "tags": ["safety", "procedures", "docking", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Safety procedures for docking include pre-dock system checks, communication with the ground, and contingency plans.",
+        "intent": "provide_safety_procedures_docking",
+        "tags": ["safety", "procedures", "docking", "contingency"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "equipment_repair_request_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, request repair assistance for the malfunctioning rover.",
+        "intent": "request_repair_assistance",
+        "tags": ["equipment", "repair", "request", "rover"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Repair assistance for the rover has been requested and will arrive shortly.",
+        "intent": "confirm_repair_assistance_requested",
+        "tags": ["repair", "assistance", "requested", "rover"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "plant_growth_monitoring_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, monitor the growth rate of the plants in the hydroponics unit.",
+        "intent": "request_plant_growth_monitoring",
+        "tags": ["plant", "growth", "monitoring", "hydroponics"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Plant growth rate is currently at 3 cm per week, indicating healthy development.",
+        "intent": "provide_plant_growth_status",
+        "tags": ["plant", "growth", "healthy", "development"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "fuel_consumption_analysis_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, analyze the fuel consumption over the last week.",
+        "intent": "request_fuel_consumption_analysis",
+        "tags": ["fuel", "consumption", "analysis", "weekly"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Fuel consumption has averaged 25 liters per day over the last week, which is within expected limits.",
+        "intent": "provide_fuel_consumption_analysis",
+        "tags": ["fuel", "consumption", "average", "limits"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "communication_protocol_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the communication protocols for emergencies.",
+        "intent": "request_communication_protocol_check",
+        "tags": ["communication", "protocols", "emergency", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency communication protocols are updated and include direct lines to mission control and backup systems.",
+        "intent": "confirm_communication_protocols_updated",
+        "tags": ["communication", "protocols", "emergency", "backup"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "data_backup_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, confirm that the data backup is complete.",
+        "intent": "request_data_backup_status",
+        "tags": ["data", "backup", "check", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Data backup is complete and secure, with no errors detected.",
+        "intent": "confirm_data_backup_status",
+        "tags": ["data", "backup", "complete", "secure"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_simulation_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run an emergency simulation for cabin depressurization.",
+        "intent": "request_emergency_simulation",
+        "tags": ["emergency", "simulation", "cabin", "depressurization"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency simulation for cabin depressurization is in progress. Please follow the instructions on your display.",
+        "intent": "confirm_emergency_simulation_in_progress",
+        "tags": ["emergency", "simulation", "cabin", "in progress"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "power_usage_analysis_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, analyze the power usage trends over the past month.",
+        "intent": "request_power_usage_analysis",
+        "tags": ["power", "usage", "analysis", "monthly"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Power usage has increased by 15% over the past month, primarily due to additional experiments conducted.",
+        "intent": "provide_power_usage_analysis",
+        "tags": ["power", "usage", "increase", "experiments"]
+      }
+    ]
+  },
+    {
+    "dialogue_id": "habitat_conditions_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, assess the habitat's current air quality.",
+        "intent": "request_habitat_air_quality",
+        "tags": ["habitat", "air quality", "assessment", "environment"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The habitat's air quality is optimal: Oxygen at 21%, Nitrogen at 78%, and pollutants below detection limits.",
+        "intent": "provide_habitat_air_quality_status",
+        "tags": ["habitat", "air quality", "optimal", "pollutants"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_drill_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the emergency evacuation drill.",
+        "intent": "request_initiate_evacuation_drill",
+        "tags": ["emergency", "evacuation", "drill", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency evacuation drill initiated. All crew members should proceed to the designated safety zones.",
+        "intent": "confirm_evacuation_drill_initiated",
+        "tags": ["emergency", "evacuation", "drill", "safety zones"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacecraft_maintenance_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what maintenance tasks are due this week?",
+        "intent": "request_maintenance_schedule",
+        "tags": ["maintenance", "tasks", "schedule", "upcoming"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "This week, you need to inspect the life support systems and perform routine checks on the navigation instruments.",
+        "intent": "provide_maintenance_schedule",
+        "tags": ["maintenance", "life support", "navigation", "checks"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "psychological_wellbeing_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how can I manage stress better during the mission?",
+        "intent": "request_stress_management_tips",
+        "tags": ["stress", "management", "wellbeing", "tips"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "To manage stress, consider practicing mindfulness exercises, maintaining regular communication with loved ones, and taking breaks for physical activity.",
+        "intent": "provide_stress_management_tips",
+        "tags": ["stress", "management", "mindfulness", "communication"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "experiment_results_analysis_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, analyze the results of the recent material science experiment.",
+        "intent": "request_experiment_results_analysis",
+        "tags": ["experiment", "results", "analysis", "material science"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The analysis shows increased tensile strength and reduced thermal conductivity, suggesting promising properties for future applications.",
+        "intent": "provide_experiment_results_analysis",
+        "tags": ["experiment", "analysis", "tensile strength", "thermal conductivity"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "mission_control_feedback_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, send a feedback report to Mission Control regarding the last procedure.",
+        "intent": "request_send_feedback_report",
+        "tags": ["feedback", "report", "Mission Control", "procedure"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Feedback report sent to Mission Control. They will review and respond shortly.",
+        "intent": "confirm_feedback_report_sent",
+        "tags": ["feedback", "Mission Control", "report", "sent"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacecraft_docking_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, verify the docking mechanisms before the upcoming rendezvous.",
+        "intent": "request_docking_mechanisms_verification",
+        "tags": ["docking", "mechanisms", "verification", "rendezvous"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Docking mechanisms are functional and ready for the upcoming rendezvous. All systems are green.",
+        "intent": "provide_docking_mechanisms_status",
+        "tags": ["docking", "mechanisms", "functional", "systems"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "orbital_debris_monitoring_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, are there any alerts for orbital debris in our path?",
+        "intent": "request_orbital_debris_alert",
+        "tags": ["orbital", "debris", "monitoring", "alerts"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "No alerts for orbital debris detected within your trajectory. You are clear to proceed.",
+        "intent": "provide_orbital_debris_alert_status",
+        "tags": ["orbital", "debris", "clear", "trajectory"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "thermal_control_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the thermal control system settings.",
+        "intent": "request_thermal_control_settings_check",
+        "tags": ["thermal", "control", "system", "settings"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thermal control system settings are optimized for current spacecraft conditions, maintaining a steady internal temperature.",
+        "intent": "provide_thermal_control_settings_status",
+        "tags": ["thermal", "control", "system", "optimized"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "exercise_regimen_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me of my exercise regimen for today.",
+        "intent": "request_exercise_regimen",
+        "tags": ["exercise", "regimen", "today", "reminder"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Today’s exercise regimen includes 30 minutes of resistance training followed by 20 minutes of cardiovascular workout.",
+        "intent": "provide_exercise_regimen",
+        "tags": ["exercise", "regimen", "training", "workout"]
+      }
+    ]
+  },
+  {
+        "dialogue_id": "fuel_consumption_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what is the current fuel consumption rate?",
+        "intent": "request_fuel_consumption_rate",
+        "tags": ["fuel", "consumption", "rate", "monitoring"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Current fuel consumption rate is at 5.3 liters per hour. Monitor closely during maneuvers.",
+        "intent": "provide_fuel_consumption_status",
+        "tags": ["fuel", "consumption", "rate", "monitoring"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "power_system_status_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the power system status.",
+        "intent": "request_power_system_status",
+        "tags": ["power", "system", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Power system is functioning optimally with 80% capacity. All solar panels are operational.",
+        "intent": "provide_power_system_status",
+        "tags": ["power", "system", "status", "capacity"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_safety_protocol_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what should I do in case of a fire emergency?",
+        "intent": "request_fire_emergency_protocol",
+        "tags": ["emergency", "fire", "safety", "protocol"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "In case of fire, activate the fire suppression system, secure your oxygen supply, and follow the nearest safe exit route immediately.",
+        "intent": "provide_fire_emergency_protocol",
+        "tags": ["emergency", "fire", "safety", "protocol"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "temperature_control_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, monitor the temperature control in the lab.",
+        "intent": "request_temperature_control_check",
+        "tags": ["temperature", "control", "lab", "monitor"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Temperature in the lab is stable at 21°C. No adjustments needed at this time.",
+        "intent": "provide_temperature_control_status",
+        "tags": ["temperature", "control", "lab", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "supply_chain_status_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, can you give me an update on the supply chain?",
+        "intent": "request_supply_chain_status",
+        "tags": ["supply", "chain", "status", "update"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Supply chain is functioning well. All necessary supplies are on schedule for arrival next week.",
+        "intent": "provide_supply_chain_status",
+        "tags": ["supply", "chain", "status", "schedule"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "robotic_arm_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how do I operate the robotic arm for the upcoming task?",
+        "intent": "request_robotic_arm_operation_guidelines",
+        "tags": ["robotic", "arm", "operation", "task"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "To operate the robotic arm, activate the control panel, select the task mode, and adjust the grip strength to 30% for delicate items. Follow the visual feedback on the screen.",
+        "intent": "provide_robotic_arm_operation_instructions",
+        "tags": ["robotic", "arm", "operation", "instructions"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "water_recycling_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the water recycling system efficiency.",
+        "intent": "request_water_recycling_efficiency_check",
+        "tags": ["water", "recycling", "system", "efficiency"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The water recycling system is currently at 95% efficiency. All systems are operating within optimal parameters.",
+        "intent": "provide_water_recycling_efficiency_status",
+        "tags": ["water", "recycling", "system", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "safety_equipment_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, confirm the status of safety equipment.",
+        "intent": "request_safety_equipment_status",
+        "tags": ["safety", "equipment", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All safety equipment is inspected and ready for use. Emergency kits are fully stocked.",
+        "intent": "provide_safety_equipment_status",
+        "tags": ["safety", "equipment", "status", "stock"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "payload_deployment_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, are we ready for payload deployment?",
+        "intent": "request_payload_deployment_status",
+        "tags": ["payload", "deployment", "check", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Payload deployment system is primed. All checks are complete, and you can proceed with the operation.",
+        "intent": "confirm_payload_deployment_ready",
+        "tags": ["payload", "deployment", "system", "ready"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "scientific_data_collection_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the collection of scientific data for the ongoing experiments.",
+        "intent": "request_scientific_data_collection",
+        "tags": ["scientific", "data", "collection", "experiments"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Initiating data collection now. All sensors are calibrated and monitoring conditions.",
+        "intent": "confirm_scientific_data_collection_initiated",
+        "tags": ["scientific", "data", "collection", "sensors"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_morale_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how is the crew morale today?",
+        "intent": "request_crew_morale_status",
+        "tags": ["crew", "morale", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Crew morale is reported to be high today. Everyone is engaged and focused on their tasks.",
+        "intent": "provide_crew_morale_status",
+        "tags": ["crew", "morale", "status", "engagement"]
+      }
+    ]
+  },
+   {
+    "dialogue_id": "thermal_control_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, assess the thermal control system’s performance.",
+        "intent": "request_thermal_control_assessment",
+        "tags": ["thermal", "control", "system", "performance"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The thermal control system is operating within parameters. No anomalies detected, but consider monitoring for potential fluctuations.",
+        "intent": "provide_thermal_control_status",
+        "tags": ["thermal", "control", "system", "monitoring"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_level_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what are the current radiation levels outside the spacecraft?",
+        "intent": "request_radiation_level",
+        "tags": ["radiation", "level", "external", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Current radiation levels are at 0.15 µSv/h, which is within safe exposure limits. Continue with your tasks as planned.",
+        "intent": "provide_radiation_level_status",
+        "tags": ["radiation", "level", "safety", "exposure"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "life_support_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the status of the life support systems.",
+        "intent": "request_life_support_status",
+        "tags": ["life", "support", "system", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All life support systems are functioning optimally. Oxygen generation and carbon dioxide scrubbing are within acceptable limits.",
+        "intent": "provide_life_support_status",
+        "tags": ["life", "support", "system", "oxygen", "carbon dioxide"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "cargo_inventory_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the status of the cargo inventory?",
+        "intent": "request_cargo_inventory_status",
+        "tags": ["cargo", "inventory", "status", "supplies"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Cargo inventory is at 90% capacity. Adequate supplies for upcoming missions are confirmed.",
+        "intent": "provide_cargo_inventory_status",
+        "tags": ["cargo", "inventory", "capacity", "supplies"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "communication_system_test_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate a test of the communication system.",
+        "intent": "request_communication_test",
+        "tags": ["communication", "system", "test", "connectivity"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Communication system test in progress... Test successful. All channels are operational.",
+        "intent": "confirm_communication_test_result",
+        "tags": ["communication", "system", "test", "operational"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_procedure_review_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, remind me of the emergency procedures in case of cabin depressurization.",
+        "intent": "request_emergency_procedure_review",
+        "tags": ["emergency", "procedure", "cabin", "depressurization"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "In case of cabin depressurization, secure all loose items, don your spacesuit, and activate the emergency oxygen supply. Follow the nearest exit route to the designated safe area.",
+        "intent": "provide_emergency_procedure",
+        "tags": ["emergency", "procedure", "safety", "cabin"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "science_experiment_update_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, provide an update on the current science experiment.",
+        "intent": "request_science_experiment_update",
+        "tags": ["science", "experiment", "update", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The science experiment on plant growth in microgravity is progressing well. Current growth rate is 3 cm/day, and environmental conditions are stable.",
+        "intent": "provide_science_experiment_status",
+        "tags": ["science", "experiment", "plant growth", "status"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacewalk_preparation_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, are we ready for the upcoming spacewalk?",
+        "intent": "request_spacewalk_preparation_check",
+        "tags": ["spacewalk", "preparation", "check", "safety"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Preparation for spacewalk is complete. All systems check out, and your spacesuit is fully functional. You can proceed when ready.",
+        "intent": "confirm_spacewalk_preparation",
+        "tags": ["spacewalk", "preparation", "systems", "functional"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "environmental_monitoring_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the status of the environmental monitoring system.",
+        "intent": "request_environmental_monitoring_status",
+        "tags": ["environmental", "monitoring", "system", "status"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The environmental monitoring system is operational. Current temperature is 22°C, humidity at 40%, and pressure is stable.",
+        "intent": "provide_environmental_monitoring_status",
+        "tags": ["environmental", "monitoring", "temperature", "humidity", "pressure"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "crew_health_status_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the current health status of the crew?",
+        "intent": "request_crew_health_status",
+        "tags": ["crew", "health", "status", "monitoring"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "All crew members are reporting stable health. No immediate medical concerns. Regular health monitoring is ongoing.",
+        "intent": "provide_crew_health_status",
+        "tags": ["crew", "health", "status", "monitoring"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "navigation_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, verify the navigation system’s accuracy.",
+        "intent": "request_navigation_system_check",
+        "tags": ["navigation", "system", "check", "accuracy"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Navigation system accuracy is confirmed. Current position is within 10 meters of the planned trajectory.",
+        "intent": "confirm_navigation_system_accuracy",
+        "tags": ["navigation", "system", "accuracy", "trajectory"]
+      }
+    ]
+  },
+    {
+    "dialogue_id": "oxygen_tank_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the oxygen tank levels.",
+        "intent": "request_oxygen_tank_status",
+        "tags": ["oxygen", "tank", "levels", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Oxygen tank levels are at 78%. Current consumption rate indicates this should last for 12 hours.",
+        "intent": "provide_oxygen_tank_status",
+        "tags": ["oxygen", "tank", "78%", "consumption"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "ventilation_system_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, verify the status of the ventilation system.",
+        "intent": "request_ventilation_system_check",
+        "tags": ["ventilation", "system", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Ventilation system is fully operational, ensuring optimal airflow.",
+        "intent": "confirm_ventilation_system_ok",
+        "tags": ["ventilation", "airflow", "operational", "optimal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "fuel_status_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what’s the status of our fuel reserves?",
+        "intent": "request_fuel_status",
+        "tags": ["fuel", "status", "reserves", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Fuel reserves are at 65%, sufficient for the next scheduled maneuver.",
+        "intent": "provide_fuel_status",
+        "tags": ["fuel", "reserves", "65%", "maneuver"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_panel_alignment_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, adjust the solar panel alignment for optimal energy absorption.",
+        "intent": "request_solar_panel_alignment",
+        "tags": ["solar", "panel", "alignment", "energy"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Solar panels realigned for maximum exposure. Energy absorption increased by 10%.",
+        "intent": "confirm_solar_panel_realigned",
+        "tags": ["solar", "alignment", "exposure", "energy"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "emergency_protocol_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, initiate the emergency evacuation protocol.",
+        "intent": "request_emergency_evacuation",
+        "tags": ["emergency", "evacuation", "protocol", "initiate"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Emergency evacuation protocol initiated. Please proceed to the nearest escape pod.",
+        "intent": "confirm_emergency_protocol_initiated",
+        "tags": ["emergency", "protocol", "escape", "evacuation"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "solar_flare_warning_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, report on solar flare activity.",
+        "intent": "request_solar_flare_status",
+        "tags": ["solar", "flare", "activity", "warning"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "No current solar flare activity detected. Next potential flare is predicted in 48 hours.",
+        "intent": "provide_solar_flare_status",
+        "tags": ["solar", "flare", "none", "48 hours"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "equipment_diagnostic_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, run a diagnostic check on the life support equipment.",
+        "intent": "request_life_support_diagnostic",
+        "tags": ["life", "support", "equipment", "diagnostic"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Life support equipment diagnostic complete. All systems functioning within normal parameters.",
+        "intent": "confirm_life_support_diagnostic_ok",
+        "tags": ["life", "support", "diagnostic", "normal"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "pressure_monitoring_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check the internal cabin pressure levels.",
+        "intent": "request_pressure_levels_check",
+        "tags": ["pressure", "cabin", "levels", "monitoring"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Cabin pressure is stable at 14.7 psi, within acceptable range.",
+        "intent": "provide_pressure_levels_status",
+        "tags": ["pressure", "stable", "14.7 psi", "acceptable"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "scientific_experiment_update_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, update me on the progress of the scientific experiment in lab module 2.",
+        "intent": "request_scientific_experiment_update",
+        "tags": ["scientific", "experiment", "lab", "progress"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The experiment in lab module 2 is proceeding as expected. Growth rate of plant samples has increased by 15%.",
+        "intent": "provide_scientific_experiment_update",
+        "tags": ["scientific", "experiment", "plant", "growth rate"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "exercise_reminder_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Reminder: Your scheduled exercise session is in 10 minutes.",
+        "intent": "provide_exercise_reminder",
+        "tags": ["exercise", "reminder", "scheduled", "session"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Thanks, Ashwini. I’ll start soon.",
+        "intent": "confirm_exercise_reminder",
+        "tags": ["exercise", "reminder", "acknowledge", "start"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "hull_breach_alert_1",
+    "turns": [
+      {
+        "speaker": "system",
+        "utterance": "Alert: Possible hull breach detected in compartment 3.",
+        "intent": "provide_hull_breach_alert",
+        "tags": ["hull", "breach", "alert", "compartment"]
+      },
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, confirm the location and severity of the breach.",
+        "intent": "request_hull_breach_confirmation",
+        "tags": ["hull", "breach", "location", "severity"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "The breach is localized in compartment 3, with minimal pressure loss detected. Immediate repairs are advised.",
+        "intent": "confirm_hull_breach_details",
+        "tags": ["hull", "breach", "localized", "repairs"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "dietary_intake_check_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, have I met my daily calorie intake for today?",
+        "intent": "request_dietary_intake_status",
+        "tags": ["dietary", "calorie", "intake", "daily"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "You have consumed 1,800 calories today. You are 200 calories short of your daily target.",
+        "intent": "provide_dietary_intake_status",
+        "tags": ["dietary", "calorie", "target", "1800"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "spacewalk_preparation_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, prepare my suit for the upcoming spacewalk.",
+        "intent": "request_spacewalk_preparation",
+        "tags": ["spacewalk", "suit", "preparation", "upcoming"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your suit is being prepared for the spacewalk. Oxygen and power levels are fully charged.",
+        "intent": "confirm_spacewalk_preparation",
+        "tags": ["spacewalk", "suit", "prepared", "charged"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "sleep_monitoring_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, how was my sleep quality last night?",
+        "intent": "request_sleep_monitoring_data",
+        "tags": ["sleep", "quality", "monitoring", "night"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "You slept for 6.5 hours. Your sleep cycle was interrupted twice. Consider relaxing before bedtime for better rest.",
+        "intent": "provide_sleep_monitoring_data",
+        "tags": ["sleep", "6.5 hours", "interrupted", "quality"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "radiation_levels_monitoring_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, check current radiation levels inside the spacecraft.",
+        "intent": "request_radiation_levels_status",
+        "tags": ["radiation", "levels", "spacecraft", "monitoring"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Radiation levels are within safe limits at 0.03 mSv/h.",
+        "intent": "provide_radiation_levels_status",
+        "tags": ["radiation", "levels", "0.03 mSv/h", "safe"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "food_supply_status_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, what is the current status of our food supplies?",
+        "intent": "request_food_supply_status",
+        "tags": ["food", "supply", "status", "check"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Food supplies are sufficient for 45 more days at the current consumption rate.",
+        "intent": "provide_food_supply_status",
+        "tags": ["food", "supply", "45 days", "consumption"]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "robotic_arm_control_1",
+    "turns": [
+      {
+        "speaker": "astronaut",
+        "utterance": "Ashwini, activate the robotic arm for the satellite retrieval operation.",
+        "intent": "request_robotic_arm_activation",
+        "tags": ["robotic", "arm", "satellite", "activation"]
+      },
+      {
+        "speaker": "system",
+        "utterance": "Robotic arm activated. Ready for satellite retrieval operation.",
+        "intent": "confirm_robotic_arm_activated",
+        "tags": ["robotic", "arm", "activated", "satellite"]
+      }
+    ]
+  }
+
+
+
+]
